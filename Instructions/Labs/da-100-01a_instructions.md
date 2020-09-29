@@ -26,7 +26,7 @@
 
 이 작업에서는 **MySettings.txt** 파일을 열고, 계정 세부 정보를 기록합니다.
 
-*강사가 계정을 제공했으며 이 계정을 사용하여 모든 랩을 완료하는 것이 중요합니다. 계정이 제공되지 않은 경우 https://powerbi.microsoft.com/en-us/documentation/powerbi-admin-signing-up-for-power-bi-with-a-new-office-365-trial로 이동하여 이 랩을 계속하기 전에 계정을 만드는 단계를 따릅니다.*
+*강사가 계정을 제공했으며 이 계정을 사용하여 모든 랩을 완료하는 것이 중요합니다. 계정이 제공되지 않은 경우 https://powerbi.microsoft.com/ko-kr/documentation/powerbi-admin-signing-up-for-power-bi-with-a-new-office-365-trial로 이동하여 이 랩을 계속하기 전에 계정을 만드는 단계를 따릅니다.*
 
 1. 파일 탐색기를 열려면 작업 표시줄에서 파일 탐색기 프로그램 바로 가기를 클릭합니다.
 
@@ -77,7 +77,7 @@
 16. Microsoft Edge 창을 열어 둡니다.
 
   
-?Ae 
+
 
 ### 작업 3: 작업 영역 만들기
 
@@ -118,7 +118,7 @@
 25. **랩 03D**의 작업 영역에 콘텐츠를 게시합니다.
 
   
-?Ae 
+
 
 ### 작업 4: Power BI Desktop 열기
 
@@ -143,7 +143,7 @@
     ***Lab 02A**에서 데이터 모델 개발을 시작합니다*.
 
   
-?Ae 
+
 
 ### 작업 5: 랩 데이터베이스 업데이트
 
