@@ -162,15 +162,15 @@ Power BI Desktop으로 데이터 로드
 
 *랩에 자세한 지침이 이미 제공된 경우 랩 단계에서는 이제 더 간결한 지침이 제공됩니다. 자세한 지침이 필요한 경우 다른 작업을 다시 참조할 수 있습니다*.
 
-1.  **DimProduct** 쿼리를 선택합니다.
+1. **DimProduct** 쿼리를 선택합니다.
 
     ![그림 5643](Linked_image_Files/PowerBI_Lab03A_image20.png)
 
-32. 쿼리 이름을 **제품**로 바꿉니다.
+2. 쿼리 이름을 **제품**로 바꿉니다.
 
-33. **FinishedGoodsFlag** 열을 찾은 다음 열을 필터링하여 완제품인 제품을 검색합니다(예: TRUE).
+3. **FinishedGoodsFlag** 열을 찾은 다음 열을 필터링하여 완제품인 제품을 검색합니다(예: TRUE).
 
-34. 다음을 제외한 모든 열을 제거합니다.
+4. 다음을 제외한 모든 열을 제거합니다.
 
     * ProductKey
 
@@ -182,35 +182,35 @@ Power BI Desktop으로 데이터 로드
 
     * DimProductSubcategory
 
-35. **DimProductSubcategory** 열은 관련 테이블을 나타냅니다(**값** 링크가 포함됨).
+5. **DimProductSubcategory** 열은 관련 테이블을 나타냅니다(**값** 링크가 포함됨).
 
-36. 열 이름 오른쪽에 있는 **DimProductSubcategory** 열 헤더에서 확장 단추를 클릭합니다.
+6. 열 이름 오른쪽에 있는 **DimProductSubcategory** 열 헤더에서 확장 단추를 클릭합니다.
 
     ![그림 5644](Linked_image_Files/PowerBI_Lab03A_image21.png)
 
-37. 모든 열을 선택 취소하려면 **(모든 열 선택)**을 선택 취소합니다.
+7. 모든 열을 선택 취소하려면 **(모든 열 선택)** 을 선택 취소합니다.
 
-38. **EnglishProductSubcategoryName** 및 **DimProductCategory** 열을 선택하세요.
+8. **EnglishProductSubcategoryName** 및 **DimProductCategory** 열을 선택하세요.
 
     ![그림 5646](Linked_image_Files/PowerBI_Lab03A_image22.png)
 
     *이 두 열을 선택하면 **DimProductSubcategory** 테이블에 결합하도록 변환이 적용된 다음 열을 포함하게 됩니다. **DimProductCategory** 열은 실제로는 별개의 관련 테이블입니다*.
 
-39.  **원래 열 이름을 접두사로 사용** 확인란을 선택 취소합니다.
+9. **원래 열 이름을 접두사로 사용** 확인란을 선택 취소합니다.
 
-    ![그림 5647](Linked_image_Files/PowerBI_Lab03A_image23.png)
+![그림 5647](Linked_image_Files/PowerBI_Lab03A_image23.png)
 
     *쿼리 열 이름은 항상 고유해야 합니다. 이 확인란을 선택하면 각 열의 이름에 확장된 열 이름이 접두사로 추가됩니다(이 경우 **DimProductSubcategory**). 선택한 열이 **제품** 쿼리의 열과 충돌하지 않는 것으로 알려져 있으므로 옵션이 선택 해제됩니다*.
 
-40. **확인**을 클릭합니다.
+10. **확인**을 클릭합니다.
 
     ![그림 5648](Linked_image_Files/PowerBI_Lab03A_image24.png)
 
-41. 변환 결과 두 개의 열이 생성되고 **DimProductCategory** 열이 제거되었습니다.
+11. 변환 결과 두 개의 열이 생성되고 **DimProductCategory** 열이 제거되었습니다.
 
-42. **DimProductCategory**를 확장한 다음 **EnglishProductCategoryName** 열만 도입합니다.
+12. **DimProductCategory**를 확장한 다음 **EnglishProductCategoryName** 열만 도입합니다.
 
-43. 다음 네 개의 열의 이름을 변경합니다.
+13. 다음 네 개의 열의 이름을 변경합니다.
 
     * **EnglishProductName**을 **Product**
 
@@ -220,7 +220,7 @@ Power BI Desktop으로 데이터 로드
 
     * **EnglishProductCategoryName**를**Category**
 
-44. 상태 표시줄에서 쿼리에 열이 6개, 행이 397개 있는지 확인합니다.
+14. 상태 표시줄에서 쿼리에 열이 6개, 행이 397개 있는지 확인합니다.
 
     ![그림 5651](Linked_image_Files/PowerBI_Lab03A_image25.png)
 
@@ -232,9 +232,9 @@ Power BI Desktop으로 데이터 로드
 
     ![그림 5653](Linked_image_Files/PowerBI_Lab03A_image26.png)
 
-46. 쿼리 이름을 **재판매인**으로 변경합니다.
+2. 쿼리 이름을 **재판매인**으로 변경합니다.
 
-47. 다음을 제외한 모든 열을 제거합니다.
+3. 다음을 제외한 모든 열을 제거합니다.
 
     * ResellerKey
 
@@ -244,7 +244,7 @@ Power BI Desktop으로 데이터 로드
 
     * DimGeography
 
-48.  **DimGeography** 열을 확장하여 다음 세 개의 열만 포함합니다.
+4. **DimGeography** 열을 확장하여 다음 세 개의 열만 포함합니다.
 
     * City
 
@@ -252,20 +252,20 @@ Power BI Desktop으로 데이터 로드
 
     * EnglishCountryRegionName
 
-    ![그림 5656](Linked_image_Files/PowerBI_Lab03A_image27.png)
+![그림 5656](Linked_image_Files/PowerBI_Lab03A_image27.png)
 
-49. **비즈니스 유형** 열 헤더에서 아래쪽 화살표를 클릭한 다음 항목과 웨어하우스의 잘못된 맞춤법을 검토합니다.
+5. **비즈니스 유형** 열 헤더에서 아래쪽 화살표를 클릭한 다음 항목과 웨어하우스의 잘못된 맞춤법을 검토합니다.
 
     ![그림 2](Linked_image_Files/PowerBI_Lab03A_image28.png)
 
   
 ​ 
 
-50. **비즈니스 유형** 열 헤더를 마우스 오른쪽 단추로 클릭한 다음 **값 바꾸기**를 선택합니다.
+6. **비즈니스 유형** 열 헤더를 마우스 오른쪽 단추로 클릭한 다음 **값 바꾸기**를 선택합니다.
 
     ![그림 4](Linked_image_Files/PowerBI_Lab03A_image29.png)
 
-51. **값 바꾸기** 창에서 다음 값을 구성합니다.
+7. **값 바꾸기** 창에서 다음 값을 구성합니다.
 
     * **찾을 값** 상자에서 **Ware House**를 입력합니다
 
@@ -273,11 +273,11 @@ Power BI Desktop으로 데이터 로드
 
     ![그림 5](Linked_image_Files/PowerBI_Lab03A_image30.png)
 
-52. **확인**을 클릭합니다.
+8. **확인**을 클릭합니다.
 
     ![그림 6](Linked_image_Files/PowerBI_Lab03A_image31.png)
 
-53. 다음 네 개의 열의 이름을 변경합니다.
+9. 다음 네 개의 열의 이름을 변경합니다.
 
     * **BusinessType**을 **비즈니스 유형**으로 (공백 포함)
 
@@ -287,7 +287,7 @@ Power BI Desktop으로 데이터 로드
 
     * **EnglishCountryRegionName**을 **국가-지역**으로
 
-54. 상태 표시줄에서 쿼리에 6개의 열과 701개의 행이 있는지 확인합니다.
+10. 상태 표시줄에서 쿼리에 6개의 열과 701개의 행이 있는지 확인합니다.
 
     ![그림 5657](Linked_image_Files/PowerBI_Lab03A_image32.png)
 
@@ -299,13 +299,13 @@ Power BI Desktop으로 데이터 로드
 
     ![그림 5659](Linked_image_Files/PowerBI_Lab03A_image33.png)
 
-56. 쿼리 이름을 **지역**으로 바꿉니다.
+2. 쿼리 이름을 **지역**으로 바꿉니다.
 
-57. 값 0(영)을 제거하려면 **SalesTerritoryAlternateKey** 열에 필터를 적용합니다.
+3. 값 0(영)을 제거하려면 **SalesTerritoryAlternateKey** 열에 필터를 적용합니다.
 
     ![그림 5660](Linked_image_Files/PowerBI_Lab03A_image34.png)
 
-58. 다음을 제외한 모든 열을 제거합니다.
+4. 다음을 제외한 모든 열을 제거합니다.
 
     * SalesTerritoryKey
 
@@ -315,7 +315,7 @@ Power BI Desktop으로 데이터 로드
 
     * SalesTerritoryGroup
 
-59. 다음 세 개의 열의 이름을 변경합니다.
+5. 다음 세 개의 열의 이름을 변경합니다.
 
     * **SalesTerritoryRegion**을 **지역**으로
 
@@ -323,7 +323,7 @@ Power BI Desktop으로 데이터 로드
 
     * **SalesTerritoryGroup**을 **그룹**으로
 
-60. 상태 표시줄에서 쿼리에 열이 4개, 행이 10개 있는지 확인합니다.
+6. 상태 표시줄에서 쿼리에 열이 4개, 행이 10개 있는지 확인합니다.
 
     ![그림 5661](Linked_image_Files/PowerBI_Lab03A_image35.png)
 
@@ -335,9 +335,9 @@ Power BI Desktop으로 데이터 로드
 
     ![그림 5663](Linked_image_Files/PowerBI_Lab03A_image36.png)
 
-62. 쿼리 이름을 **판매**로 바꿉니다.
+2. 쿼리 이름을 **판매**로 바꿉니다.
 
-63. 다음을 제외한 모든 열을 제거합니다.
+3. 다음을 제외한 모든 열을 제거합니다.
 
     * SalesOrderNumber
 
@@ -363,19 +363,19 @@ Power BI Desktop으로 데이터 로드
 
     ***랩 02A**에서 **FactResellerSales** 행의 일부가 **TotalProductCost** 값을 누락했다는 것을 기억하세요. **DimProduct** 열이 포함되어 제품 표준 비용을 검색하여 누락된 값을 수정합니다*.
 
-64. **DimProduct** 열을 확장한 다음 **StandardCost** 열을 포함합니다.
+4. **DimProduct** 열을 확장한 다음 **StandardCost** 열을 포함합니다.
 
-65. 사용자 지정 열을 만들려면 **일반** 그룹 내의 **열 추가** 리본 탭에서 **사용자 지정 열**을 클릭합니다.
+5. 사용자 지정 열을 만들려면 **일반** 그룹 내의 **열 추가** 리본 탭에서 **사용자 지정 열**을 클릭합니다.
 
     ![그림 5664](Linked_image_Files/PowerBI_Lab03A_image37.png)
 
-66. **새 열 이름** 상자의 **사용자 지정 열** 창에서 텍스트를 **비용**으로 바꿉니다.
+6. **새 열 이름** 상자의 **사용자 지정 열** 창에서 텍스트를 **비용**으로 바꿉니다.
 
     ![그림 5665](Linked_image_Files/PowerBI_Lab03A_image38.png)
 
-67. **사용자 지정 열 수식** 상자에서 다음 식을 등호 뒤에 입력합니다.
+7. **사용자 지정 열 수식** 상자에서 다음 식을 등호 뒤에 입력합니다.
 
-68. 편의를 위해 **D:\DA100\Lab03A\Assets\Snippets.txt** 파일에서 식을 복사할 수 있습니다.
+8. 편의를 위해 **D:\DA100\Lab03A\Assets\Snippets.txt** 파일에서 식을 복사할 수 있습니다.
 
     **파워 쿼리**
 
@@ -385,17 +385,17 @@ Power BI Desktop으로 데이터 로드
 
     *이 식은 **TotalProductCost** 값이 누락되었는지 테스트합니다. 누락된 경우 **OrderQuantity** 값을 **StandardCost** 값으로 곱하여 값을 생성하며 그렇지 않으면 기존 **TotalProductCost** 값을 사용합니다*.
 
-69. **확인**을 클릭합니다.
+9. **확인**을 클릭합니다.
 
     ![그림 5666](Linked_image_Files/PowerBI_Lab03A_image39.png)
 
-70. 다음 두 개의 열을 제거합니다.
+10. 다음 두 개의 열을 제거합니다.
 
     * TotalProductCost
 
     * StandardCost
 
-71. 다음 세 개의 열의 이름을 변경합니다.
+11. 다음 세 개의 열의 이름을 변경합니다.
 
     * **OrderQuantity**을  **수량**대한 주문 수량
 
@@ -403,13 +403,13 @@ Power BI Desktop으로 데이터 로드
 
     * **SalesAmount**를 **Sales**로
 
-72. 열 데이터 형식을 수정하려면 열 이름 왼쪽에 있는 **수량** 열 헤더에서 **1.2** 아이콘을 클릭한 다음 **정수**를 선택합니다.
+12. 열 데이터 형식을 수정하려면 열 이름 왼쪽에 있는 **수량** 열 헤더에서 **1.2** 아이콘을 클릭한 다음 **정수**를 선택합니다.
 
     ![그림 5667](Linked_image_Files/PowerBI_Lab03A_image40.png)
 
     *올바른 데이터 형식을 구성하는 것이 중요합니다. 열에 숫자 값이 포함 된다면 수학적 연산을 수행할 것으로 예상될 경우 올바른 형식을 선택하는 것도 중요합니다.*
 
-73. 다음 세 개의 열 데이터 형식을 **고정 10진수**로 수정합니다.
+13. 다음 세 개의 열 데이터 형식을 **고정 10진수**로 수정합니다.
 
     * 단가
 
@@ -421,7 +421,7 @@ Power BI Desktop으로 데이터 로드
 
     *고정 10진수 데이터 유형은 완전한 정밀도로 값을 저장하므로 10진수만큼 더 많은 저장 공간이 필요합니다. 재무 값 또는 비율(예: 환율)에 고정 10진수 유형을 사용하는 것이 중요합니다*.
 
-74. 상태 표시줄에서 쿼리에 열이 10개, 행이 999개 이상 있는지 확인합니다.
+14. 상태 표시줄에서 쿼리에 열이 10개, 행이 999개 이상 있는지 확인합니다.
 
     ![그림 5669](Linked_image_Files/PowerBI_Lab03A_image42.png)
 
@@ -435,21 +435,21 @@ Power BI Desktop으로 데이터 로드
 
     ![그림 5672](Linked_image_Files/PowerBI_Lab03A_image43.png)
 
-76. 쿼리 이름을 **대상**으로 변경합니다.
+2. 쿼리 이름을 **대상**으로 변경합니다.
 
-77. 12개월 열(**M01**-**M12**)을 피벗 해제하려면 먼저 **연도** 및 **EmployeeID** 열 헤더를 다중 선택합니다.
+3. 12개월 열(**M01**-**M12**)을 피벗 해제하려면 먼저 **연도** 및 **EmployeeID** 열 헤더를 다중 선택합니다.
 
     ![그림 5673](Linked_image_Files/PowerBI_Lab03A_image44.png)
 
-78. 선택한 열 헤더 중 하나를 마우스 오른쪽 단추로 클릭한 다음 컨텍스트 메뉴에서 **다른 열 피벗 해제**를 선택합니다.
+4. 선택한 열 헤더 중 하나를 마우스 오른쪽 단추로 클릭한 다음 컨텍스트 메뉴에서 **다른 열 피벗 해제**를 선택합니다.
 
     ![그림 5674](Linked_image_Files/PowerBI_Lab03A_image45.png)
 
-79. 열 이름이 이제 **특성** 열에 나타나고 값이 **값** 열에 나타납니다.
+5. 열 이름이 이제 **특성** 열에 나타나고 값이 **값** 열에 나타납니다.
 
-80. **값** 열에 필터를 적용하여 하이픈(-) 값을 제거합니다.
+6. **값** 열에 필터를 적용하여 하이픈(-) 값을 제거합니다.
 
-81. 다음 두 열의 이름을 변경합니다.
+7. 다음 두 열의 이름을 변경합니다.
 
     * **특성**을 **MonthNumber**으로(두 단어 간 공간 없음. 추후 제거됨)
 
@@ -457,73 +457,73 @@ Power BI Desktop으로 데이터 로드
 
     *이제 변환을 적용하여 날짜 열을 생성합니다. 날짜는 **연도** 및 **MonthNumber** 열에서 파생됩니다. **예제에서 열 생성** 기능을 사용하여 열을 만듭니다*.
 
-82. **MonthNumber** 열 값을 준비하려면 **MonthNumber** 열 헤더를 마우스 오른쪽 단추로 클릭한 다음 **값 바꾸기**를 선택합니다.
+8. **MonthNumber** 열 값을 준비하려면 **MonthNumber** 열 헤더를 마우스 오른쪽 단추로 클릭한 다음 **값 바꾸기**를 선택합니다.
 
     ![그림 5676](Linked_image_Files/PowerBI_Lab03A_image46.png)
 
-83. **값 바꾸기** 창의 **찾을 값** 상자에서 **M**을 입력합니다.
+9. **값 바꾸기** 창의 **찾을 값** 상자에서 **M**을 입력합니다.
 
     ![그림 5677](Linked_image_Files/PowerBI_Lab03A_image47.png)
 
-84. **확인**을 클릭합니다.
+10. **확인**을 클릭합니다.
 
-85. **MonthNumber** 열 데이터 형식을 **정수**로 수정합니다.
+11. **MonthNumber** 열 데이터 형식을 **정수**로 수정합니다.
 
     ![그림 5678](Linked_image_Files/PowerBI_Lab03A_image48.png)
 
-86. **일반** 그룹 내부의 **열 추가** 리본 탭에서 **예제에서 열 생성** 아이콘을 클릭합니다.
+12. **일반** 그룹 내부의 **열 추가** 리본 탭에서 **예제에서 열 생성** 아이콘을 클릭합니다.
 
     ![그림 5675](Linked_image_Files/PowerBI_Lab03A_image49.png)
 
-87. 첫 번째 행은 **2017**년, 월 번호 **7**입니다.
+13. 첫 번째 행은 **2017**년, 월 번호 **7**입니다.
 
-88. **Column1** 열의 첫 번째 표 셀에서 **7/1/2017**을 입력한 다음 **Enter**를 누릅니다.
+14. **Column1** 열의 첫 번째 표 셀에서 **7/1/2017**을 입력한 다음 **Enter**를 누릅니다.
 
     *가상 머신은 미국 지역 설정을 사용하므로 이 날짜는 실제로 2017년 7월 1일입니다*.
 
-89. 모눈 셀이 예측값으로 업데이트됩니다.
+15. 모눈 셀이 예측값으로 업데이트됩니다.
 
     이 기능은 두 열의 값을 결합하고 있음을 정확하게 예측했습니다.
 
-90. 또한 쿼리 표 위에 표시되는 수식도 확인합니다.
+16. 또한 쿼리 표 위에 표시되는 수식도 확인합니다.
 
     ![그림 5679](Linked_image_Files/PowerBI_Lab03A_image50.png)
 
-91. 새 열의 이름을 바꾸려면 **병합된** 열 헤더를 두 번 클릭합니다.
+17. 새 열의 이름을 바꾸려면 **병합된** 열 헤더를 두 번 클릭합니다.
 
-92. **TargetMonth**로 열 이름을 변경합니다.
+18. **TargetMonth**로 열 이름을 변경합니다.
 
     ![그림 5680](Linked_image_Files/PowerBI_Lab03A_image51.png)
 
-93. **확인**을 클릭합니다.
+19. **확인**을 클릭합니다.
 
     ![그림 5681](Linked_image_Files/PowerBI_Lab03A_image52.png)
 
-94. 다음 열을 제거합니다.
+20. 다음 열을 제거합니다.
 
     * 연도
 
     * MonthNumber
 
-95. 다음 열 데이터 형식을 수정합니다.
+21. 다음 열 데이터 형식을 수정합니다.
 
     * **Target**을 고정 10진수로
 
     * **TargetMonth**을 날짜로
 
-96. **Target** 값을 1000으로 곱하려면 **Target** 열 헤더를 선택한 다음 **숫자 열** 그룹 내부의 **변환** 리본 탭에서 **표준**을 클릭한 다음 **곱하기**를 선택합니다.
+22. **Target** 값을 1000으로 곱하려면 **Target** 열 헤더를 선택한 다음 **숫자 열** 그룹 내부의 **변환** 리본 탭에서 **표준**을 클릭한 다음 **곱하기**를 선택합니다.
 
     ![그림 5682](Linked_image_Files/PowerBI_Lab03A_image53.png)
 
-97. **곱하기** 창에서 **값** 상자에 **1000**을 입력합니다.
+23. **곱하기** 창에서 **값** 상자에 **1000**을 입력합니다.
 
     ![그림 5683](Linked_image_Files/PowerBI_Lab03A_image54.png)
 
-98. **확인**을 클릭합니다.
+24. **확인**을 클릭합니다.
 
     ![그림 5684](Linked_image_Files/PowerBI_Lab03A_image55.png)
 
-99. 상태 표시줄에서 쿼리에 세 개의 열과 809개의 행이 있는지 확인합니다.
+25. 상태 표시줄에서 쿼리에 세 개의 열과 809개의 행이 있는지 확인합니다.
 
     ![그림 5685](Linked_image_Files/PowerBI_Lab03A_image56.png)
 
@@ -534,12 +534,12 @@ Power BI Desktop으로 데이터 로드
 1. **ColorFormats** 쿼리를 선택합니다.  
 	![그림 5687](Linked_image_Files/PowerBI_Lab03A_image57.png)
 
-101. 첫 번째 행에는 열 이름이 포함되어 있습니다.
+2. 첫 번째 행에는 열 이름이 포함되어 있습니다.
 
-102. **변환** 그룹 내의 **홈** 리본 탭에서 **첫 행을 머리글로 사용**을 클릭합니다.  
+3. **변환** 그룹 내의 **홈** 리본 탭에서 **첫 행을 머리글로 사용**을 클릭합니다.  
     ![그림 5688](Linked_image_Files/PowerBI_Lab03A_image58.png)
 
-103. 상태 표시줄에서 쿼리에 세 개의 열과 10개의 행이 있는지 확인합니다.  
+4. 상태 표시줄에서 쿼리에 세 개의 열과 10개의 행이 있는지 확인합니다.  
 	![그림 5689](Linked_image_Files/PowerBI_Lab03A_image59.png)
 
 ### 작업 9: 제품 쿼리 업데이트
@@ -586,14 +586,14 @@ Power BI Desktop으로 데이터 로드
 1. **ColorFormats** 쿼리를 선택합니다.  
 	![그림 321](Linked_image_Files/PowerBI_Lab03A_image68.png)
 
-115. **쿼리 설정** 창에서 **모든 속성** 링크를 클릭합니다.  
+2. **쿼리 설정** 창에서 **모든 속성** 링크를 클릭합니다.  
 	![그림 322](Linked_image_Files/PowerBI_Lab03A_image69.png)
 
-116. **쿼리 속성** 창에서 **보고하기 위해 로드 실행** 확인란을 선택 취소합니다.  
+3. **쿼리 속성** 창에서 **보고하기 위해 로드 실행** 확인란을 선택 취소합니다.  
 	![그림 323](Linked_image_Files/PowerBI_Lab03A_image70.png)  
 	*로드를 비활성화하면 데이터 모델에 테이블로 로드되지 않습니다. 쿼리가 데이터 모델에 사용 가능한 제품 쿼리와 병합되었기 때문에 이 작업이 수행됩니다.*
 
-117. **확인**을 클릭합니다.  
+4. **확인**을 클릭합니다.  
 	![그림 324](Linked_image_Files/PowerBI_Lab03A_image71.png)
 
 ### 완료
@@ -618,14 +618,14 @@ Power BI Desktop으로 데이터 로드
 
     * ColorFormats(데이터 모델에 로드되지 않음)
 
-119. 데이터 모델을 로드하려면 **파일** backstage 보기에서 **닫기 및 적용**을 선택합니다.  
+2. 데이터 모델을 로드하려면 **파일** backstage 보기에서 **닫기 및 적용**을 선택합니다.  
 	![그림 326](Linked_image_Files/PowerBI_Lab03A_image72.png)  
 	*이제 모든 로드 지원 쿼리가 데이터 모델에 로드됩니다*.
 
-120. **필드** 창(오른쪽에 위치)에서 데이터 모델에 로드된 7개의 테이블을 확인합니다.  
+3. **필드** 창(오른쪽에 위치)에서 데이터 모델에 로드된 7개의 테이블을 확인합니다.  
 	![그림 3](Linked_image_Files/PowerBI_Lab03A_image73.png)
 
-121. Power BI Desktop 파일을 저장합니다.
+4. Power BI Desktop 파일을 저장합니다.
 
-122. Power BI Desktop을 열어 둡니다.  
+5. Power BI Desktop을 열어 둡니다.  
 	*다음 랩에서는 데이터 모델 테이블 및 관계를 구성합니다.*

@@ -110,7 +110,7 @@ Power BI Desktop의 고급 데이터 모델링
 
 20. 모델링 뷰로 전환한 다음 다이어그램에서 **영업 사원** 테이블을 선택합니다.
 
-21. **속성** 창의 **이름** 상자에서 텍스트를 **Salesperson (Performance)**으로 바꿉니다.
+21. **속성** 창의 **이름** 상자에서 텍스트를 **Salesperson (Performance)** 으로 바꿉니다.
 
 	*이름이 바뀐 이 테이블은 이제 테이블의 목적을 반영합니다. 이 테이블은 할당된 판매 지역의 판매량을 기반으로 판매원의 성과를 보고하고 분석하는 데 사용됩니다*.
 
@@ -120,13 +120,13 @@ Power BI Desktop의 고급 데이터 모델링
 
 1. **Salesperson (Performance)**에서 관계를 만듭니다.** | 직원 ID** 열 및 **목표 | EmployeeID** 열에서 관계를 만듭니다.
 
-23. 보고서 뷰에서 **여러 목표 | 대상** 필드를 테이블 시각적 개체에 추가합니다.
+2. 보고서 뷰에서 **여러 목표 | 대상** 필드를 테이블 시각적 개체에 추가합니다.
 
 	테이블 시각적 개체를 확장하여 모든 데이터를 표시합니다. 
 
 	![그림 5699](Linked_image_Files/PowerBI_Lab05A_image10.png)
 
-24. 이제 판매와 목표를 시각화할 수 있지만 두 가지 이유로 주의해야 합니다. 첫째, 기간에 필터가 없으므로 향후 목표 값도 포함됩니다. 둘째, 대상이 추가되지 않으므로 합계를 표시해서는 안 됩니다. 시각적 서식 속성을 사용하여 비활성화하거나 계산 논리를 사용하여 제거할 수 있습니다. **Lab 06B**에서는 두 명 이상의 영업 사원이 필터링되면 BLANK를 반환하는 대상 측정을 작성합니다.
+3. 이제 판매와 목표를 시각화할 수 있지만 두 가지 이유로 주의해야 합니다. 첫째, 기간에 필터가 없으므로 향후 목표 값도 포함됩니다. 둘째, 대상이 추가되지 않으므로 합계를 표시해서는 안 됩니다. 시각적 서식 속성을 사용하여 비활성화하거나 계산 논리를 사용하여 제거할 수 있습니다. **Lab 06B**에서는 두 명 이상의 영업 사원이 필터링되면 BLANK를 반환하는 대상 측정을 작성합니다.
 
 # 연습 2: 행 수준 보안 적용하기
 
@@ -140,71 +140,71 @@ Power BI Desktop의 고급 데이터 모델링
 
 	![그림 5701](Linked_image_Files/PowerBI_Lab05A_image11.png)
 
-26. **필드** 창에서 **Salesperson (Performance)** 테이블을 선택합니다.
+2. **필드** 창에서 **Salesperson (Performance)** 테이블을 선택합니다.
 
-27. 데이터를 검토하여 Michael Blythe(EmployeeKey 281)에 Power BI 계정(**UPN**열)이 할당되었음을 확인합니다.
+3. 데이터를 검토하여 Michael Blythe(EmployeeKey 281)에 Power BI 계정(**UPN**열)이 할당되었음을 확인합니다.
 
 	*Michael Blythe는 판매 지역 세 곳에 할당되어 있습니다: 미국 북동부, 미국 중부, 미국 남동부*.
 
-28. 보고서 보기로 전환합니다.
+4. 보고서 보기로 전환합니다.
 
-29. **보안** 그룹 내부의 **모델링** 리본 탭에서 **역할 관리**를 클릭합니다.
+5. **보안** 그룹 내부의 **모델링** 리본 탭에서 **역할 관리**를 클릭합니다.
 
 	![그림 5700](Linked_image_Files/PowerBI_Lab05A_image12.png)
 
-30. **역할 관리** 창에서 **만들기**를 클릭합니다.
+6. **역할 관리** 창에서 **만들기**를 클릭합니다.
 
 	![그림 5702](Linked_image_Files/PowerBI_Lab05A_image13.png)
 
-31. 상자에서 선택한 텍스트를 역할 이름으로 바꿉니다. **Salespeople**, 그 다음 **입력**을 누릅니다.
+7. 상자에서 선택한 텍스트를 역할 이름으로 바꿉니다. **Salespeople**, 그 다음 **입력**을 누릅니다.
 
 	![그림 5703](Linked_image_Files/PowerBI_Lab05A_image14.png)
 
-32. 필터를 할당하려면 **Salesperson (Performance)** 테이블에서 줄임표(...) 문자를 클릭한 다음 **필터 추가**를 선택합니다.** | [UPN]**.
+8. 필터를 할당하려면 **Salesperson (Performance)** 테이블에서 줄임표(...) 문자를 클릭한 다음 **필터 추가**를 선택합니다. ** | [UPN]**.
 
 	![그림 5704](Linked_image_Files/PowerBI_Lab05A_image15.png)
 
-33. **Table Filter DAX Expression** 상자에서 **"값"**을 **USERNAME()**으로 바꿔 식을 수정합니다.
+9. **Table Filter DAX Expression** 상자에서 **"값"** 을 **USERNAME()** 으로 바꿔 식을 수정합니다.
 
 	![그림 5705](Linked_image_Files/PowerBI_Lab05A_image16.png)
 
 	*USERNAME()은 인증된 사용자를 검색하는 DAX(Data Analysis Expressions) 함수입니다. 즉, **Salesperson (Performance)** 테이블은 모델을 쿼리하는 사용자의 UPN(User Principal Name)으로 필터링합니다*.
 
-34. **저장**을 클릭합니다.
+10. **저장**을 클릭합니다.
 
 	![그림 5706](Linked_image_Files/PowerBI_Lab05A_image17.png)
 
-35. 보안 역할을 테스트하려면 **보안** 그룹 내부의 **모델링** 리본 탭에서 **View As**를 클릭합니다.
+11. 보안 역할을 테스트하려면 **보안** 그룹 내부의 **모델링** 리본 탭에서 **View As**를 클릭합니다.
 
 	![그림 5708](Linked_image_Files/PowerBI_Lab05A_image18.png)
 
-36. **역할로 보기** 창에서 **다른 사용자** 항목을 선택한 다음 해당 상자에 계정 이름을 입력합니다.
+12. **역할로 보기** 창에서 **다른 사용자** 항목을 선택한 다음 해당 상자에 계정 이름을 입력합니다.
 
 	*팁:  **MySettings.txt** 파일*에서 복사할 수 있습니다.
 
-37. **Salespeople** 역할을 확인합니다.
+13. **Salespeople** 역할을 확인합니다.
 
 	![그림 5709](Linked_image_Files/PowerBI_Lab05A_image19.png)
 
 	*이 구성으로 **Salespeople** 역할을 사용하고 계정 이름으로 사용자를 가장합니다*.
 
-38. **확인**을 클릭합니다.
+14. **확인**을 클릭합니다.
 
 	![그림 5710](Linked_image_Files/PowerBI_Lab05A_image20.png)
 
-39. 테스트 보안 컨텍스트를 설명하는 보고서 페이지 위의 노란색 배너를 확인합니다.
+15. 테스트 보안 컨텍스트를 설명하는 보고서 페이지 위의 노란색 배너를 확인합니다.
 
 	![그림 5711](Linked_image_Files/PowerBI_Lab05A_image21.png)
 
-40. 테이블 시각적 개체에서 판매원 **Michael Blythe**만 나열되는 것을 확인합니다.
+16. 테이블 시각적 개체에서 판매원 **Michael Blythe**만 나열되는 것을 확인합니다.
 
 	![그림 5713](Linked_image_Files/PowerBI_Lab05A_image22.png)
 
-41. 테스트를 중지하려면 노란색 배너 오른쪽에서 **보기 중지**를 클릭합니다.
+17. 테스트를 중지하려면 노란색 배너 오른쪽에서 **보기 중지**를 클릭합니다.
 
 	![그림 5712](Linked_image_Files/PowerBI_Lab05A_image23.png)
 
-	* Power BI Desktop 파일이 Power BI 서비스에 게시되면 보안 주체를 **Salespeople** 역할에 매핑하는 게시 후 작업이 있습니다. **Lab 06B**에서 이 작업을 수행합니다*.
+	*Power BI Desktop 파일이 Power BI 서비스에 게시되면 보안 주체를 **Salespeople** 역할에 매핑하는 게시 후 작업이 있습니다. **Lab 06B**에서 이 작업을 수행합니다*.
 
 ### 완료
 
@@ -212,6 +212,6 @@ Power BI Desktop의 고급 데이터 모델링
 
 1. Power BI Desktop 파일을 저장합니다.
 
-43. Power BI Desktop을 열어 둡니다.
+2. Power BI Desktop을 열어 둡니다.
 
 	*다음 랩에서는 DAX를 사용한 계산을 통해 데이터 모델을 향상시킵니다*.
