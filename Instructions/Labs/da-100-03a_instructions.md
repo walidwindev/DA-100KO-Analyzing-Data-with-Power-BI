@@ -14,7 +14,7 @@ Power BI Desktop으로 데이터 로드
 
 * 다양한 변환 적용하기
 
-* 쿼리를 적용하여 데이터 모델에
+* 쿼리를 적용하여 데이터 모델에 적용하기
 
 # 연습 1: 데이터 로드
 
@@ -98,7 +98,7 @@ Power BI Desktop으로 데이터 로드
 
 15. 단일 이름 열을 만들려면 먼저 **FirstName** 열 헤더를 선택합니다.
 
-16. **Ctrl** 키를 누르면서 **LastName** 열을 선택합니다.
+16. **Ctrl** 키를 누른 상태에서 **LastName** 열을 선택합니다.
 
     ![그림 116](Linked_image_Files/PowerBI_Lab03A_image12.png)
 
@@ -166,7 +166,7 @@ Power BI Desktop으로 데이터 로드
 
     ![그림 5643](Linked_image_Files/PowerBI_Lab03A_image20.png)
 
-2. 쿼리 이름을 **제품**로 바꿉니다.
+2. 쿼리 이름을 **Product**로 바꿉니다.
 
 3. **FinishedGoodsFlag** 열을 찾은 다음 열을 필터링하여 완제품인 제품을 검색합니다(예: TRUE).
 
@@ -212,13 +212,13 @@ Power BI Desktop으로 데이터 로드
 
 13. 다음 네 개의 열의 이름을 변경합니다.
 
-    * **EnglishProductName**을 **Product**
+    * **EnglishProductName**을 **Product**로
 
     * **StandardCost**를 **Standard Cost**로(공백 포함)
 
     * **EnglishProductSubcategoryName**를 **Subcategory**로
 
-    * **EnglishProductCategoryName**를**Category**
+    * **EnglishProductCategoryName**를 **Category**로
 
 14. 상태 표시줄에서 쿼리에 열이 6개, 행이 397개 있는지 확인합니다.
 
@@ -232,7 +232,7 @@ Power BI Desktop으로 데이터 로드
 
     ![그림 5653](Linked_image_Files/PowerBI_Lab03A_image26.png)
 
-2. 쿼리 이름을 **재판매인**으로 변경합니다.
+2. 쿼리 이름을 **Reseller**로으로 변경합니다.
 
 3. 다음을 제외한 모든 열을 제거합니다.
 
@@ -279,27 +279,27 @@ Power BI Desktop으로 데이터 로드
 
 9. 다음 네 개의 열의 이름을 변경합니다.
 
-    * **BusinessType**을 **비즈니스 유형**으로 (공백 포함)
+    * **BusinessType**을 **Business Type**으로 (공백 포함)
 
-    * **ResellerName**을 **재판매인**으로
+    * **ResellerName**을 **Reseller**로
 
-    * **StateProvinceName**을 **주-도**로
+    * **StateProvinceName**을 **State-Province**로
 
-    * **EnglishCountryRegionName**을 **국가-지역**으로
+    * **EnglishCountryRegionName**을 **Country-Region**으로
 
 10. 상태 표시줄에서 쿼리에 6개의 열과 701개의 행이 있는지 확인합니다.
 
     ![그림 5657](Linked_image_Files/PowerBI_Lab03A_image32.png)
 
-### 작업 5: 지역 쿼리 구성
+### 작업 5: Region 쿼리 구성
 
-이 작업에서는 **지역** 쿼리를 구성합니다.
+이 작업에서는 **Region** 쿼리를 구성합니다.
 
 1. **DimSalesTerritory** 쿼리를 선택합니다.
 
     ![그림 5659](Linked_image_Files/PowerBI_Lab03A_image33.png)
 
-2. 쿼리 이름을 **지역**으로 바꿉니다.
+2. 쿼리 이름을 **Region**으로 바꿉니다.
 
 3. 값 0(영)을 제거하려면 **SalesTerritoryAlternateKey** 열에 필터를 적용합니다.
 
@@ -317,25 +317,25 @@ Power BI Desktop으로 데이터 로드
 
 5. 다음 세 개의 열의 이름을 변경합니다.
 
-    * **SalesTerritoryRegion**을 **지역**으로
+    * **SalesTerritoryRegion**을 **Region**으로
 
-    * **SalesTerritoryCountry**를  **국가**
+    * **SalesTerritoryCountry**를  **Country**로
 
-    * **SalesTerritoryGroup**을 **그룹**으로
+    * **SalesTerritoryGroup**을 **Group**으로
 
 6. 상태 표시줄에서 쿼리에 열이 4개, 행이 10개 있는지 확인합니다.
 
     ![그림 5661](Linked_image_Files/PowerBI_Lab03A_image35.png)
 
-### 작업 6: 판매 쿼리 구성
+### 작업 6: Sales 쿼리 구성
 
-이 작업에서는 **판매** 쿼리를 구성합니다.
+이 작업에서는 **Sales** 쿼리를 구성합니다.
 
 1.  **FactResellerSales** 쿼리를 선택합니다.
 
     ![그림 5663](Linked_image_Files/PowerBI_Lab03A_image36.png)
 
-2. 쿼리 이름을 **판매**로 바꿉니다.
+2. 쿼리 이름을 **Sales**로 바꿉니다.
 
 3. 다음을 제외한 모든 열을 제거합니다.
 
@@ -397,9 +397,9 @@ Power BI Desktop으로 데이터 로드
 
 11. 다음 세 개의 열의 이름을 변경합니다.
 
-    * **OrderQuantity**을  **수량**대한 주문 수량
+    * **OrderQuantity**을  **Quantity**로
 
-    * **UnitPrice**를 **단가**로
+    * **UnitPrice**를 **Unit Price**로(공백 포함)
 
     * **SalesAmount**를 **Sales**로
 
@@ -427,17 +427,17 @@ Power BI Desktop으로 데이터 로드
 
     *최대 1,000개의 행이 각 쿼리에 대한 미리 보기 데이터로 로드됩니다*.
 
-### 작업 7: 대상 쿼리 구성
+### 작업 7: Targets 쿼리 구성
 
-이 작업에서는 **대상** 쿼리를 구성합니다.
+이 작업에서는 **Targets** 쿼리를 구성합니다.
 
 1. **ResellerSalesTargets** 쿼리를 선택합니다.
 
     ![그림 5672](Linked_image_Files/PowerBI_Lab03A_image43.png)
 
-2. 쿼리 이름을 **대상**으로 변경합니다.
+2. 쿼리 이름을 **Targets**로 변경합니다.
 
-3. 12개월 열(**M01**-**M12**)을 피벗 해제하려면 먼저 **연도** 및 **EmployeeID** 열 헤더를 다중 선택합니다.
+3. 12개월 열(**M01**-**M12**)을 피벗 해제하려면 먼저 **Year** 및 **EmployeeID** 열 헤더를 다중 선택합니다.
 
     ![그림 5673](Linked_image_Files/PowerBI_Lab03A_image44.png)
 
@@ -445,17 +445,17 @@ Power BI Desktop으로 데이터 로드
 
     ![그림 5674](Linked_image_Files/PowerBI_Lab03A_image45.png)
 
-5. 열 이름이 이제 **특성** 열에 나타나고 값이 **값** 열에 나타납니다.
+5. 열 이름이 이제 **Attribute** 열에 나타나고 값이 **값** 열에 나타납니다.
 
 6. **값** 열에 필터를 적용하여 하이픈(-) 값을 제거합니다.
 
 7. 다음 두 열의 이름을 변경합니다.
 
-    * **특성**을 **MonthNumber**으로(두 단어 간 공간 없음. 추후 제거됨)
+    * **Attribute**을 **MonthNumber**으로(두 단어 간 공간 없음. 추후 제거됨)
 
-    * **값**을 **대상**으로
+    * **Value**를 **Target**으로
 
-    *이제 변환을 적용하여 날짜 열을 생성합니다. 날짜는 **연도** 및 **MonthNumber** 열에서 파생됩니다. **예제에서 열 생성** 기능을 사용하여 열을 만듭니다*.
+    *이제 변환을 적용하여 날짜 열을 생성합니다. 날짜는 **Year** 및 **MonthNumber** 열에서 파생됩니다. **예제에서 열 생성** 기능을 사용하여 열을 만듭니다*.
 
 8. **MonthNumber** 열 값을 준비하려면 **MonthNumber** 열 헤더를 마우스 오른쪽 단추로 클릭한 다음 **값 바꾸기**를 선택합니다.
 
@@ -481,7 +481,7 @@ Power BI Desktop으로 데이터 로드
 
     *가상 머신은 미국 지역 설정을 사용하므로 이 날짜는 실제로 2017년 7월 1일입니다*.
 
-15. 모눈 셀이 예측값으로 업데이트됩니다.
+15. 그리드 셀이 예측값으로 업데이트됩니다.
 
     이 기능은 두 열의 값을 결합하고 있음을 정확하게 예측했습니다.
 
@@ -489,7 +489,7 @@ Power BI Desktop으로 데이터 로드
 
     ![그림 5679](Linked_image_Files/PowerBI_Lab03A_image50.png)
 
-17. 새 열의 이름을 바꾸려면 **병합된** 열 헤더를 두 번 클릭합니다.
+17. 새 열의 이름을 바꾸려면 **병합됨** 열 헤더를 두 번 클릭합니다.
 
 18. **TargetMonth**로 열 이름을 변경합니다.
 
@@ -501,7 +501,7 @@ Power BI Desktop으로 데이터 로드
 
 20. 다음 열을 제거합니다.
 
-    * 연도
+    * Year
 
     * MonthNumber
 
@@ -542,23 +542,23 @@ Power BI Desktop으로 데이터 로드
 4. 상태 표시줄에서 쿼리에 세 개의 열과 10개의 행이 있는지 확인합니다.  
 	![그림 5689](Linked_image_Files/PowerBI_Lab03A_image59.png)
 
-### 작업 9: 제품 쿼리 업데이트
+### 작업 9: Product 쿼리 업데이트
 
-이 작업에서는 **ColorFormats** 쿼리를 병합하여 **제품** 쿼리를 업데이트합니다.
+이 작업에서는 **ColorFormats** 쿼리를 병합하여 **Product** 쿼리를 업데이트합니다.
 
-1. **제품** 쿼리를 선택합니다.  
+1. **Product** 쿼리를 선택합니다.  
 	![그림 5690](Linked_image_Files/PowerBI_Lab03A_image60.png)
 
 1. **결합** 그룹 내의 **홈** 리본 탭에서 **ColorFormats** 쿼리를 병합하려면 **쿼리 병합**을 클릭합니다.  
 	![그림 5654](Linked_image_Files/PowerBI_Lab03A_image61.png)  
 	*쿼리 병합을 통해 다른 데이터 원본(SQL Server 및 CSV 파일)에서 데이터를 통합할 수 있습니다*.
 
-1. **제품** 쿼리 표의 **병합** 창에서 **색상** 열 헤더를 선택합니다.  
+1. **Product** 쿼리 표의 **병합** 창에서 **Color** 열 헤더를 선택합니다.  
 	![그림 5655](Linked_image_Files/PowerBI_Lab03A_image62.png)
 
-1. **제품** 쿼리 표 아래의 드롭다운 목록에서 **ColorFormats** 쿼리를 선택합니다.
+1. **Product** 쿼리 표 아래의 드롭다운 목록에서 **ColorFormats** 쿼리를 선택합니다.
 
-1. **ColorFormats** 쿼리 표에서 **색상** 열 헤더를 선택합니다.
+1. **ColorFormats** 쿼리 표에서 **Color** 열 헤더를 선택합니다.
 
 1. **개인 정보 수준** 창이 열리면 해당 드롭다운 목록에서 두 데이터 원본 각각에 대해 **조직**을 선택합니다.  
 	![그림 5691](Linked_image_Files/PowerBI_Lab03A_image63.png)  
@@ -612,13 +612,13 @@ Power BI Desktop으로 데이터 로드
 
     * Region
 
-    * 영업
+    * Sales
 
     * Target
 
     * ColorFormats(데이터 모델에 로드되지 않음)
 
-2. 데이터 모델을 로드하려면 **파일** backstage 보기에서 **닫기 및 적용**을 선택합니다.  
+2. 데이터 모델을 로드하려면 **파일** Backstage 보기에서 **닫기 및 적용**을 선택합니다.  
 	![그림 326](Linked_image_Files/PowerBI_Lab03A_image72.png)  
 	*이제 모든 로드 지원 쿼리가 데이터 모델에 로드됩니다*.
 
