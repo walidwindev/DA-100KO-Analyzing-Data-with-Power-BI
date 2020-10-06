@@ -156,7 +156,7 @@ Power BI Desktop의 고급 데이터 모델링
 
 	![그림 5702](Linked_image_Files/PowerBI_Lab05A_image13.png)
 
-7. 상자에서 선택한 텍스트를 역할 이름**(Salespeople)**으로 바꿉니다. 그 다음 **입력**을 누릅니다.
+7. 상자에서 선택한 텍스트를 역할 이름 **(Salespeople)** 으로 바꿉니다. 그 다음 **입력**을 누릅니다.
 
 	![그림 5703](Linked_image_Files/PowerBI_Lab05A_image14.png)
 

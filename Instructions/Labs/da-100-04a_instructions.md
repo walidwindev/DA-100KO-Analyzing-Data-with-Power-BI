@@ -128,9 +128,9 @@ Power BI Desktop의 데이터 모델링
 
 25. 다음 두 모델 관계를 만듭니다.
 
-	* **지역 | SalesTerritoryKey**를 **판매**로 ** | SalesTerritoryKey**
+	* **지역 | SalesTerritoryKey**를 **판매**로 **| SalesTerritoryKey**
 
-	* **영업 사원 | EmployeeKey**를 **판매**로 ** | EmployeeKey**
+	* **영업 사원 | EmployeeKey**를 **판매**로 **| EmployeeKey**
 
 	*이 랩에서는 **SalespersonRegion** 및 **대상**테이블의 연결이 끊긴 상태로 유지됩니다. 영업 사원과 지역 간에는 많은 다대다 관계가 있습니다. 다음 랩에서 이에 대한 고급 시나리오를 진행해 보겠습니다*.
 
@@ -166,7 +166,7 @@ Power BI Desktop의 데이터 모델링
 
 	![그림 343](Linked_image_Files/PowerBI_Lab04A_image18.png)
 
-	*팁: **수준 변경 적용**을 클릭하는 것을 기억하도록 합니다.**이 단계를 간과해서 자주 실수가 발생합니다*.
+	*팁: **수준 변경 적용**을 클릭하는 것을 기억하도록 합니다. 이 단계를 간과해서 자주 실수가 발생합니다*.
 
 7. **필드** 창에서 **제품** 계층 구조를 확인합니다.
 
@@ -346,9 +346,9 @@ Power BI Desktop의 데이터 모델링
 
 	* 시그마 기호(Ʃ)로 표시된 필드는 기본적으로 요약됩니다.
 
-	* **Sales** 위에 커서를 올리면 도구 설명이 나타납니다. ** | Cost** 필드
+	* **Sales** 위에 커서를 올리면 도구 설명이 나타납니다. **| Cost** 필드
 
-3. **Sales** 확장 ** | OrderDate** 필드를 확장하고 나서 날짜 계층 구조가 표시됩니다.
+3. **Sales** 확장 **| OrderDate** 필드를 확장하고 나서 날짜 계층 구조가 표시됩니다.
 
 	![그림 359](Linked_image_Files/PowerBI_Lab04A_image32.png)
 
@@ -426,9 +426,9 @@ Power BI Desktop의 데이터 모델링
 
 	* **Division** 수학 연산 사용
 
-	* **Numerator**를 **Sales**로 설정 ** | Profit** 필드
+	* **Numerator**를 **Sales**로 설정 **| Profit** 필드
 
-	* **Denominator**를 **Sales**로 설정 ** | Sales** 필드
+	* **Denominator**를 **Sales**로 설정 **| Sales** 필드
 
 	* 측정값 이름을**Profit Margin**으로 변경
 

@@ -244,7 +244,7 @@ Power BI Desktop에서 DAX 사용, 파트 1
 
 	* **날짜 | Date**와 **Sales | OrderDate**
 
-	* **날짜 | 날짜**와 **대상** 간 ** | TargetMonth**
+	* **날짜 | 날짜**와 **대상** 간 **| TargetMonth**
 
 5. 다음 두 개 열을 숨깁니다.
 
@@ -286,7 +286,7 @@ Power BI Desktop에서 DAX 사용, 파트 1
 
 이 작업에서는 간단한 측정값을 만듭니다. 간단한 측정값은 단일 열 또는 테이블을 집계합니다.
 
-1. 보고서 뷰의 **2페이지**에 있는 **필드** 창에서 **판매**를 드래그합니다 ** | Unit Price** 필드를 행렬 시각적 개체로 끌어갑니다.
+1. 보고서 뷰의 **2페이지**에 있는 **필드** 창에서 **판매**를 드래그합니다 **| Unit Price** 필드를 행렬 시각적 개체로 끌어갑니다.
 
 	![그림 27](Linked_image_Files/PowerBI_Lab06A_image27.png)
 
@@ -399,7 +399,7 @@ Power BI Desktop에서 DAX 사용, 파트 1
 
 	![그림 42](Linked_image_Files/PowerBI_Lab06A_image38.png)
 
-4. **Targets**의 이름을 바꿉니다. ** | Target** 열의 이름을 **Targets | TargetAmount**로 바꿉니다.
+4. **Targets**의 이름을 바꿉니다. **| Target** 열의 이름을 **Targets | TargetAmount**로 바꿉니다.
 
 	*팁: 보고서 보기에서 열의 이름을 바꿀 수 있는 방법에는 몇 가지가 있습니다. **필드** 창에서 열을 마우스 오른쪽 단추로 클릭한 다음 **이름 바꾸기**를 선택하거나, 해당 열을 두 번 클릭하거나, **F2**를 누릅니다*.
 
