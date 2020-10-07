@@ -52,7 +52,7 @@ Power BI Desktop의 데이터 분석
 
 이 작업에서는 애니메이션화할 수 있는 분산 차트를 만듭니다.
 
-1. **페이지 1**의 이름을 **분산 차** **트**로 바꿉니다.
+1. **페이지 1**의 이름을 **분산 차트**로 바꿉니다.
 
 	![그림 67](Linked_image_Files/PowerBI_Lab11A_image4.png)
 
@@ -206,7 +206,7 @@ Power BI Desktop의 데이터 분석
 
 	![그림 57](Linked_image_Files/PowerBI_Lab11A_image23.png)
 
-5. **필터** 창에서 **날짜 | 연도** 필드를  **이 페이지의** **필터** 웰에 추가하고 필터를 **FY2020**으로 설정합니다.
+5. **필터** 창에서 **날짜 | 연도** 필드를  **이 페이지의 필터** 웰에 추가하고 필터를 **FY2020**으로 설정합니다.
 
 	![그림 59](Linked_image_Files/PowerBI_Lab11A_image24.png)
 

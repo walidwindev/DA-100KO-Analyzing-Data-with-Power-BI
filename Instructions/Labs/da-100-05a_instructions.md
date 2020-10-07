@@ -160,7 +160,7 @@ Power BI Desktop의 고급 데이터 모델링
 
 	![그림 5703](Linked_image_Files/PowerBI_Lab05A_image14.png)
 
-8. 필터를 할당하려면 **Salesperson (Performance)** 테이블에서 줄임표(...) 문자를 클릭한 다음 **필터 추가** **| [UPN]** 을 선택합니다. 
+8. 필터를 할당하려면 **Salesperson (Performance)** 테이블에서 줄임표(...) 문자를 클릭한 다음 **필터 추가 | [UPN]** 을 선택합니다. 
 
 	![그림 5704](Linked_image_Files/PowerBI_Lab05A_image15.png)
 

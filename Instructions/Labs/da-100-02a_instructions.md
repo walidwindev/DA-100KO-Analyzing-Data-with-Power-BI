@@ -110,7 +110,7 @@ Power BI Desktop에서 데이터 준비
 
 7. **탐색기** 창에서 왼쪽에 있는 **AdventureWorksDW2020** 데이터베이스를 확장합니다.  
 
-	* **AdventureWorksDW2020** 데이터베이스는 **AdventureWorksDW2017** 샘플 데이터베이스를 기반으로 합니다. 이것은 과정 랩의 학습 목표를 지원하기 위해 수정되었습니다*.
+***AdventureWorksDW2020** 데이터베이스는 **AdventureWorksDW2017** 샘플 데이터베이스를 기반으로 합니다. 이것은 과정 랩의 학습 목표를 지원하기 위해 수정되었습니다*.
 
 ![그림 28](Linked_image_Files/PowerBI_Lab02A_image15.png)
 
@@ -150,13 +150,13 @@ Power BI Desktop에서 데이터 준비
 
 	![그림 31](Linked_image_Files/PowerBI_Lab02A_image18.png)
 
-	* **쿼리** 창에는 선택한 각 테이블에 대한 쿼리가 하나 있습니다*.
+***쿼리** 창에는 선택한 각 테이블에 대한 쿼리가 하나 있습니다*.
 
 2. 첫 번째 쿼리 **DimEmployee** 를 선택합니다.
 
 	![그림 33](Linked_image_Files/PowerBI_Lab02A_image19.png)
 
-	* **DimEmployee** 테이블에는 각 직원에 대해 하나의 행이 저장됩니다. 행의 하위 집합은 영업 직원을 나타내며, 이는 개발할 모델과 관련이 있습니다*.
+***DimEmployee** 테이블에는 각 직원에 대해 하나의 행이 저장됩니다. 행의 하위 집합은 영업 직원을 나타내며, 이는 개발할 모델과 관련이 있습니다*.
 
 3. 왼쪽 아래의 상태 표시줄에는 테이블 통계에 33개의 열과 296개의 행이 있습니다.
 
@@ -194,13 +194,13 @@ Power BI Desktop에서 데이터 준비
 
 	![그림 44](Linked_image_Files/PowerBI_Lab02A_image25.png)
 
-	* **DimEmployeeSalesTerritory** 테이블은 각 직원과 그들이 관리하는 영업 지역 분야별로 하나의 행을 저장합니다. 이 테이블은 많은 지역을 한 명의 직원과 연결하는 작업을 지원합니다. 일부 직원은 하나, 둘 또는 더 많은 지역을 관리합니다. 이 데이터를 모델링할 때 **랩 05A**에서 수행할 다대다 관계를 정의해야 합니다*.
+***DimEmployeeSalesTerritory** 테이블은 각 직원과 그들이 관리하는 영업 지역 분야별로 하나의 행을 저장합니다. 이 테이블은 많은 지역을 한 명의 직원과 연결하는 작업을 지원합니다. 일부 직원은 하나, 둘 또는 더 많은 지역을 관리합니다. 이 데이터를 모델링할 때 **랩 05A**에서 수행할 다대다 관계를 정의해야 합니다*.
 
 12. **쿼리** 창에서 **DimProduct** 쿼리를 선택합니다.
 
 	![그림 46](Linked_image_Files/PowerBI_Lab02A_image26.png)
 
-	* **DimProduct** 테이블에는 회사에서 판매하는 제품당 하나의 행이 포함되어 있습니다*.
+***DimProduct** 테이블에는 회사에서 판매하는 제품당 하나의 행이 포함되어 있습니다*.
 
 13. 가로로 스크롤하여 마지막 열을 표시합니다.
 
@@ -212,7 +212,7 @@ Power BI Desktop에서 데이터 준비
 
 	![그림 49](Linked_image_Files/PowerBI_Lab02A_image27.png)
 
-	* **DimReseller** 테이블에는 재판매인당 하나의 행이 있습니다. 재판매인은 Adventure Works 제품을 판매, 배포 또는 부가가치를 추가합니다*.
+***DimReseller** 테이블에는 재판매인당 하나의 행이 있습니다. 재판매인은 Adventure Works 제품을 판매, 배포 또는 부가가치를 추가합니다*.
 
 16. 열 값을 보려면 **뷰** 리본 탭에 있는 **데이터 미리 보기** 그룹 내부에서 **열 프로필**을 선택합니다.
 
@@ -236,19 +236,19 @@ Power BI Desktop에서 데이터 준비
 
 	![그림 52](Linked_image_Files/PowerBI_Lab02A_image30.png)
 
-	* **DimSalesTerritory** 테이블에는 **기업 HQ**(본사)를 포함하여 영업 지역당 하나의 행이 포함되어 있습니다. 지역은 국가에 할당되고 국가는 그룹에 할당됩니다. **랩 04A**에서 지역, 국가 또는 그룹 수준에서 분석을 지원하는 계층 구조를 만듭니다*.
+***DimSalesTerritory** 테이블에는 **기업 HQ**(본사)를 포함하여 영업 지역당 하나의 행이 포함되어 있습니다. 지역은 국가에 할당되고 국가는 그룹에 할당됩니다. **랩 04A**에서 지역, 국가 또는 그룹 수준에서 분석을 지원하는 계층 구조를 만듭니다*.
 
 23. **쿼리** 창에서 **FactReplayerSales** 쿼리를 선택합니다.
 
 	![그림 54](Linked_image_Files/PowerBI_Lab02A_image31.png)
 
-	* **FactResellerSales** 테이블에는 판매 주문 라인당 하나의 행이 포함되어 있으며, 하나의 판매 주문에는 하나 이상의 품목이 포함되어 있습니다*.
+***FactResellerSales** 테이블에는 판매 주문 라인당 하나의 행이 포함되어 있으며, 하나의 판매 주문에는 하나 이상의 품목이 포함되어 있습니다*.
 
 24. **TotalProductCost** 열의 열 품질을 검토하면 행의 8%가 비어 있음을 알 수 있습니다.
 
 	![그림 63](Linked_image_Files/PowerBI_Lab02A_image32.png)
 
-	* **TotalProductCost** 열 값을 누락하는 것은 데이터 품질 문제입니다. 문제를 해결하려면 다음 랩에서 **DimProduct** 테이블에 저장된 제품 표준 비용을 사용하여 누락된 값을 채우기 위해 변환을 적용합니다.*
+***TotalProductCost** 열 값을 누락하는 것은 데이터 품질 문제입니다. 문제를 해결하려면 다음 랩에서 **DimProduct** 테이블에 저장된 제품 표준 비용을 사용하여 누락된 값을 채우기 위해 변환을 적용합니다.*
 
 ### 작업 5: CSV 파일에서 데이터 가져오기
 
@@ -294,7 +294,7 @@ Power BI Desktop에서 데이터 준비
 
 	![그림 75](Linked_image_Files/PowerBI_Lab02A_image37.png)
 
-	* **ColorFormats** CSV 파일에는 제품 색상당 하나의 행이 포함되어 있습니다.  각 행은 HEX 코드를 기록하여 배경 및 글꼴 색상 형식을 지정합니다. 다음 랩에서는 이 데이터를 **DimProduct** 쿼리 데이터와 통합합니다*.
+***ColorFormats.csv** 파일에는 제품 색상당 하나의 행이 포함되어 있습니다.  각 행은 HEX 코드를 기록하여 배경 및 글꼴 색상 형식을 지정합니다. 다음 랩에서는 이 데이터를 **DimProduct** 쿼리 데이터와 통합합니다*.
 
 ### 완료
 

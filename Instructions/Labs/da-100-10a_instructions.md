@@ -180,9 +180,9 @@ Power BI 대시보드 만들기
 
 	![그림 28](Linked_image_Files/PowerBI_Lab10A_image26.png)
 
-	37. 계속하려면 아무 키나 누르라는 메시지가 표시되면, **Enter** 키를 다시 누릅니다.
+계속하려면 아무 키나 누르라는 메시지가 표시되면, **Enter** 키를 다시 누릅니다.
 
-	***AdventureWorksDW2020** 데이터베이스에는 2020년 6월 판매 주문이 포함되어 있습니다*.
+***AdventureWorksDW2020** 데이터베이스에는 2020년 6월 판매 주문이 포함되어 있습니다*.
 
 2. **D:\DA100\Setup** 폴더 내부에서 마우스 오른쪽 버튼으로 **UpdateDatabase-3-AddPartnerAccount.ps1** 파일을 클릭한 다음 **PowerShell에서 실행**을 선택합니다.
 
