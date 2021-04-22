@@ -52,47 +52,47 @@
 
 *중요: 이전 랩을 정상적으로 완료했으며 작업을 계속 이어서 하는 경우 이 작업을 완료하지 말고 다음 작업부터 계속 진행하세요.*
 
-12. Power BI Desktop을 열려면 작업 표시줄에서 Microsoft Power BI Desktop 바로 가기를 클릭합니다.
+1. Power BI Desktop을 열려면 작업 표시줄에서 Microsoft Power BI Desktop 바로 가기를 클릭합니다.
 
 	![그림 12](Linked_image_Files/03-configure-data-model-in-power-bi-desktop_image1.png)
 
-13. 시작 창을 닫으려면 창 왼쪽 위의 **X**를 클릭합니다.
+2. 시작 창을 닫으려면 창 왼쪽 위의 **X**를 클릭합니다.
 
 	![그림 11](Linked_image_Files/03-configure-data-model-in-power-bi-desktop_image2.png)
 
-14. 시작 Power BI Desktop 파일을 열려면 **파일** 리본 탭을 클릭하여 Backstage 뷰를 엽니다.
+3. 시작 Power BI Desktop 파일을 열려면 **파일** 리본 탭을 클릭하여 Backstage 뷰를 엽니다.
 
-15. **보고서 열기**를 선택합니다.
+4. **보고서 열기**를 선택합니다.
 
 	![그림 10](Linked_image_Files/03-configure-data-model-in-power-bi-desktop_image3.png)
 
-16. **보고서 찾아보기**를 클릭합니다.
+5. **보고서 찾아보기**를 클릭합니다.
 
 	![그림 8](Linked_image_Files/03-configure-data-model-in-power-bi-desktop_image4.png)
 
-17. **열기** 창에서 **D:\DA100\Labs\configure-data-model-in-power-bi-desktop\Starter** 폴더로 이동합니다.
+6. **열기** 창에서 **D:\DA100\Labs\configure-data-model-in-power-bi-desktop\Starter** 폴더로 이동합니다.
 
-18. **판매 분석** 파일을 선택합니다.
+7. **판매 분석** 파일을 선택합니다.
 
-19. **열기**를 클릭합니다.
+8. **열기**를 클릭합니다.
 
 	![그림 7](Linked_image_Files/03-configure-data-model-in-power-bi-desktop_image5.png)
 
-20. 정보 창이 열릴 수도 있는데 모두 닫으면 됩니다.
+9. 정보 창이 열릴 수도 있는데 모두 닫으면 됩니다.
 
-21. 파일 복사본을 만들려면 **파일** 리본 탭을 클릭하여 Backstage 뷰를 엽니다.
+10. 파일 복사본을 만들려면 **파일** 리본 탭을 클릭하여 Backstage 뷰를 엽니다.
 
-22. **다른 이름으로 저장**을 선택합니다.
+11. **다른 이름으로 저장**을 선택합니다.
 
 	![그림 5](Linked_image_Files/03-configure-data-model-in-power-bi-desktop_image6.png)
 
-23. 변경 내용을 적용하라는 메시지가 표시되면 **적용**을 클릭합니다.
+12. 변경 내용을 적용하라는 메시지가 표시되면 **적용**을 클릭합니다.
 
 	![그림 15](Linked_image_Files/03-configure-data-model-in-power-bi-desktop_image7.png)
 
-24. **다른 이름으로 저장** 창에서 **D:\DA100\MySolution** 폴더로 이동합니다.
+13. **다른 이름으로 저장** 창에서 **D:\DA100\MySolution** 폴더로 이동합니다.
 
-25. **저장**을 클릭합니다.
+14. **저장**을 클릭합니다.
 
 	![그림 3](Linked_image_Files/03-configure-data-model-in-power-bi-desktop_image8.png)
 
@@ -160,7 +160,7 @@
 
 15. **교차 필터 방향** 드롭다운 목록에서 **단일**이 선택된 것을 확인할 수 있습니다.
 
-	*단일 필터 방향은 필터가 "일 쪽"에서 "다 쪽"으로 전파된다는 것을 의미합니다. 이 경우 **제품 **테이블에 적용된 필터가 **판매** 테이블에 전파되지만 반대 방향으로는 전파되지 않음을 의미합니다. **Power BI Desktop에서 데이터 모델링, 2부** 랩에서 양방향 관계를 사용할 것입니다.*
+	*단일 필터 방향은 필터가 "일 쪽"에서 "다 쪽"으로 전파된다는 것을 의미합니다. 이 경우 **제품**테이블에 적용된 필터가 **판매** 테이블에 전파되지만 반대 방향으로는 전파되지 않음을 의미합니다. **Power BI Desktop에서 데이터 모델링, 2부** 랩에서 양방향 관계를 사용할 것입니다.*
 
 16. **Mark This Relationship Active**가 선택되어 있습니다.
 
@@ -184,7 +184,7 @@
 
 	![그림 338](Linked_image_Files/03-configure-data-model-in-power-bi-desktop_image21.png)
 
-21. 다이어그램을 통해 **1** 및 ***** 지표로 표시되는 카디널리티를 쉽게 이해할 수 있습니다.
+21. 다이어그램을 통해 **1** 및 * 지표로 표시되는 카디널리티를 쉽게 이해할 수 있습니다.
 
 	*필터 방향은 화살표 머리로 표시됩니다. 실선은 활성 관계를 나타냅니다. 파선은 비활성 관계를 나타냅니다.*
 
@@ -202,7 +202,7 @@
 
 	- **Region | SalesTerritoryKey**를 **판매**로 **| SalesTerritoryKey**
 
-	- **Salesperson | EmployeeKey**를 **판매**로**| EmployeeKey**
+	- **Salesperson | EmployeeKey**를 **판매**로 **| EmployeeKey**
 
 	*이 랩에서는 **SalespersonRegion** 및 **Targets**테이블의 연결이 끊긴 상태로 유지됩니다. 영업 직원과 지역 간에는 다대다 관계가 적용됩니다. **Power BI Desktop에서 데이터 모델링, 2부** 랩에서 이 고급 시나리오를 진행할 것입니다.*
 
@@ -498,9 +498,9 @@
 
 	- **나눗셈** 수학 연산 사용
 
-	- **Numerator**를 **Sales**로 설정** | Profit** 필드
+	- **Numerator**를 **Sales**로 설정 ** | Profit** 필드
 
-	- **Denominator**를 **Sales**로 설정** | Sales** 필드
+	- **Denominator**를 **Sales**로 설정 ** | Sales** 필드
 
 	- 측정 이름을 **Profit Margin**으로 바꾸기
 

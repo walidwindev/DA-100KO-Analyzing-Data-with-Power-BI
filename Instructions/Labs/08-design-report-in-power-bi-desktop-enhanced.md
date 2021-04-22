@@ -52,33 +52,33 @@
 
 *중요: Power BI에 이미 로그인했다면 다음 작업부터 진행하세요.*
 
-12. 작업 표시줄에서 Microsoft Edge를 열려면 Microsoft Edge 프로그램 바로 가기를 클릭합니다.
+1. 작업 표시줄에서 Microsoft Edge를 열려면 Microsoft Edge 프로그램 바로 가기를 클릭합니다.
 
 	![그림 12](Linked_image_Files/08-design-report-in-power-bi-desktop-enhanced_image1.png)
 
-13. Microsoft Edge 브라우저 창에서 **https://powerbi.com** 으로 이동합니다.
+2. Microsoft Edge 브라우저 창에서 **https://powerbi.com** 으로 이동합니다.
 
 	*팁: Microsoft Edge 즐겨찾기 모음에서 Power BI 서비스 즐겨찾기를 사용할 수도 있습니다.*
 
-14. **로그인** 오른쪽 상단 모서리에 위치)을 클릭합니다.
+3. **로그인** 오른쪽 상단 모서리에 위치)을 클릭합니다.
 
 	![그림 11](Linked_image_Files/08-design-report-in-power-bi-desktop-enhanced_image2.png)
 
-15. 제공된 계정 세부 정보를 입력합니다.
+4. 제공된 계정 세부 정보를 입력합니다.
 
-16. 암호를 업데이트하라는 메시지가 표시되면 제공된 암호를 다시 입력한 다음 새 암호를 입력하고 확인합니다.
+5. 암호를 업데이트하라는 메시지가 표시되면 제공된 암호를 다시 입력한 다음 새 암호를 입력하고 확인합니다.
 
 	*중요: 새 암호를 기록해 두어야 합니다.*
 
-17. 로그인 프로세스를 완료합니다.
+6. 로그인 프로세스를 완료합니다.
 
-18. Microsoft Edge에서 로그인 상태를 유지하라는 메시지가 표시되면 **예**를 클릭합니다.
+7. Microsoft Edge에서 로그인 상태를 유지하라는 메시지가 표시되면 **예**를 클릭합니다.
 
-19. Microsoft Edge 브라우저 창의 Power BI 서비스 내 **탐색** 창에서 **내 작업 영역**을 확장합니다.
+8. Microsoft Edge 브라우저 창의 Power BI 서비스 내 **탐색** 창에서 **내 작업 영역**을 확장합니다.
 
 	![그림 22](Linked_image_Files/08-design-report-in-power-bi-desktop-enhanced_image3.png)
 
-20. Microsoft Edge 브라우저 창을 열어 둡니다.
+9. Microsoft Edge 브라우저 창을 열어 둡니다.
 
 ### 작업 2: 시작 - 보고서 열기
 
@@ -212,7 +212,7 @@
 
 	![그림 101](Linked_image_Files/08-design-report-in-power-bi-desktop-enhanced_image24.png)
 
-7. **제품** 끌기** | **카드 시각적 개체로 **범주** 필드 넣기.
+7. 제품 **끌기 | 카드** 시각적 개체로 **범주** 필드 넣기.
 
 8. 시각적 개체에 대한 형식 옵션을 구성한 다음 **범주 레이블** 속성을 **끄기**로 설정합니다.
 
@@ -312,7 +312,7 @@
 
 	![그림 115](Linked_image_Files/08-design-report-in-power-bi-desktop-enhanced_image37.png)
 
-13. 이전 단계를 반복하여 **제품**을 사용하여 **색상** 필드에 대한 글꼴 색상 조건부 서식을 구성합니다.** | 형식 지정 | 글꼴 색상 형식** 필드
+13. 이전 단계를 반복하여 **제품**을 사용하여 **색상** 필드에 대한 글꼴 색상 조건부 서식을 **구성합니다. | 형식 지정 | 글꼴 색상 형식** 필드
 
 	*배경색과 글꼴 색은 **Power BI Desktop에서 데이터 준비** 랩에서 사용했던 **ColorFormats.csv** 파일에서 가져온 다음 **Power BI Desktop에서 데이터 로드** 랩에서 만든 **Product** 쿼리와 통합한 것입니다.*
 
@@ -466,7 +466,7 @@
 
 1. Microsoft Edge 브라우저 창의 Power BI 서비스 내 **탐색** 창에서 **판매 분석** 보고서를 클릭합니다.
 
-2. 드릴스루 보고서를 테스트하려면 **개요** 페이지의 **범주별 수량** 시각적 개체에서 **의류** 막대를 마우스 오른쪽 단추로 클릭한 다음 **드릴스루**를 선택합니다.** | 제품 세부 정보**.
+2. 드릴스루 보고서를 테스트하려면 **개요** 페이지의 **범주별 수량** 시각적 개체에서 **의류** 막대를 마우스 오른쪽 단추로 클릭한 다음 **드릴스루**를 **선택합니다. | 제품 세부 정보**.
 
 	![그림 130](Linked_image_Files/08-design-report-in-power-bi-desktop-enhanced_image55.png)
 

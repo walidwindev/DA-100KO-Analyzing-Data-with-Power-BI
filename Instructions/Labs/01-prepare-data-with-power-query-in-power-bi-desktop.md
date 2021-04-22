@@ -52,27 +52,27 @@
 
 이 작업에서는 먼저 Power BI Desktop 파일을 저장합니다.
 
-12. Power BI Desktop을 열려면 작업 표시줄에서 Microsoft Power BI Desktop 바로 가기를 클릭합니다.
+1. Power BI Desktop을 열려면 작업 표시줄에서 Microsoft Power BI Desktop 바로 가기를 클릭합니다.
 
 	![그림 2](Linked_image_Files/01-prepare-data-with-power-query-in-power-bi-desktop_image1.png)
 
-13. 시작 창을 닫으려면 창 왼쪽 위의 **X**를 클릭합니다.
+2. 시작 창을 닫으려면 창 왼쪽 위의 **X**를 클릭합니다.
 
 	![그림 3](Linked_image_Files/01-prepare-data-with-power-query-in-power-bi-desktop_image2.png)
 
-14. 파일을 저장하려면 **파일** 리본 탭을 클릭하여 Backstage 뷰를 엽니다.
+3. 파일을 저장하려면 **파일** 리본 탭을 클릭하여 Backstage 뷰를 엽니다.
 
-15. **저장**을 선택합니다.
+4. **저장**을 선택합니다.
 
 	![그림 4](Linked_image_Files/01-prepare-data-with-power-query-in-power-bi-desktop_image3.png)
 
-16. **다른 이름으로 저장** 창에서 **D:\DA100\MySolution** 폴더로 이동합니다.
+5. **다른 이름으로 저장** 창에서 **D:\DA100\MySolution** 폴더로 이동합니다.
 
-17. **파일 이름** 상자에 **영업 분석**을 입력합니다.
+6. **파일 이름** 상자에 **영업 분석**을 입력합니다.
 
 	![그림 14](Linked_image_Files/01-prepare-data-with-power-query-in-power-bi-desktop_image4.png)
 
-18. **저장**을 클릭합니다.
+7. **저장**을 클릭합니다.
 
 	![그림 17](Linked_image_Files/01-prepare-data-with-power-query-in-power-bi-desktop_image5.png)
 
@@ -325,7 +325,7 @@
 
 이 작업에서는 다른 CSV 파일을 기반으로 추가 쿼리를 만듭니다.
 
-1. 이전 작업의 단계를 사용하여 **D:\DA100\Resources**\**ColorFormats.csv** 파일을 기반으로 쿼리를 만듭니다.
+1. 이전 작업의 단계를 사용하여 **D:\DA100\Resources\ColorFormats.csv** 파일을 기반으로 쿼리를 만듭니다.
 
 	![그림 75](Linked_image_Files/01-prepare-data-with-power-query-in-power-bi-desktop_image39.png)
 

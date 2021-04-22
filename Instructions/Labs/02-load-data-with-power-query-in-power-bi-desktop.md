@@ -48,59 +48,59 @@
 
 *중요: 이전 랩을 정상적으로 완료했으며 작업을 계속 이어서 하는 경우 이 작업을 완료하지 말고 다음 작업부터 계속 진행하세요.*
 
-12. Power BI Desktop을 열려면 작업 표시줄에서 Microsoft Power BI Desktop 바로 가기를 클릭합니다.
+1. Power BI Desktop을 열려면 작업 표시줄에서 Microsoft Power BI Desktop 바로 가기를 클릭합니다.
 
 	![그림 8](Linked_image_Files/02-load-data-with-power-query-in-power-bi-desktop_image1.png)
 
-13. 시작 창을 닫으려면 창 왼쪽 위의 **X**를 클릭합니다.
+2. 시작 창을 닫으려면 창 왼쪽 위의 **X**를 클릭합니다.
 
 	![그림 7](Linked_image_Files/02-load-data-with-power-query-in-power-bi-desktop_image2.png)
 
-14. 시작 Power BI Desktop 파일을 열려면 **파일** 리본 탭을 클릭하여 Backstage 뷰를 엽니다.
+3. 시작 Power BI Desktop 파일을 열려면 **파일** 리본 탭을 클릭하여 Backstage 뷰를 엽니다.
 
-15. **보고서 열기**를 선택합니다.
+4. **보고서 열기**를 선택합니다.
 
 	![그림 10](Linked_image_Files/02-load-data-with-power-query-in-power-bi-desktop_image3.png)
 
-16. **보고서 찾아보기**를 클릭합니다.
+5. **보고서 찾아보기**를 클릭합니다.
 
 	![그림 11](Linked_image_Files/02-load-data-with-power-query-in-power-bi-desktop_image4.png)
 
-17. **열기** 창에서 **D:\DA100\Labs\load-data-with-power-query-in-power-bi-desktop\Starter** 폴더로 이동합니다.
+6. **열기** 창에서 **D:\DA100\Labs\load-data-with-power-query-in-power-bi-desktop\Starter** 폴더로 이동합니다.
 
-18. **판매 분석** 파일을 선택합니다.
+7. **판매 분석** 파일을 선택합니다.
 
-19. **열기**를 클릭합니다.
+8. **열기**를 클릭합니다.
 
 	![그림 12](Linked_image_Files/02-load-data-with-power-query-in-power-bi-desktop_image5.png)
 
-20. 정보 창이 열릴 수도 있는데 모두 닫으면 됩니다.
+9. 정보 창이 열릴 수도 있는데 모두 닫으면 됩니다.
 
-21. 리본 아래의 노란색 경고 메시지를 확인하세요.
+10. 리본 아래의 노란색 경고 메시지를 확인하세요.
 
 	*이 메시지는 모델 테이블로 로드할 쿼리가 적용되지 않았음을 알려 줍니다. 이 랩 뒷부분에서 쿼리를 적용합니다.*
 
-22. 경고 메시지를 해제하려면 노란색 경고 메시지 오른쪽의 **X**를 클릭합니다.
+11. 경고 메시지를 해제하려면 노란색 경고 메시지 오른쪽의 **X**를 클릭합니다.
 
 	![그림 13](Linked_image_Files/02-load-data-with-power-query-in-power-bi-desktop_image6.png)
 
-23. 파일 복사본을 만들려면 **파일** 리본 탭을 클릭하여 Backstage 뷰를 엽니다.
+12. 파일 복사본을 만들려면 **파일** 리본 탭을 클릭하여 Backstage 뷰를 엽니다.
 
-24. **다른 이름으로 저장**을 선택합니다.
+13. **다른 이름으로 저장**을 선택합니다.
 
 	![그림 18](Linked_image_Files/02-load-data-with-power-query-in-power-bi-desktop_image7.png)
 
-25. 변경 내용을 적용하라는 메시지가 표시되면 **나중에 적용**을 클릭합니다.
+14. 변경 내용을 적용하라는 메시지가 표시되면 **나중에 적용**을 클릭합니다.
 
 	![그림 22](Linked_image_Files/02-load-data-with-power-query-in-power-bi-desktop_image8.png)
 
-26. **다른 이름으로 저장** 창에서 **D:\DA100\MySolution** 폴더로 이동합니다.
+15. **다른 이름으로 저장** 창에서 **D:\DA100\MySolution** 폴더로 이동합니다.
 
-27. **저장**을 클릭합니다.
+16. **저장**을 클릭합니다.
 
 	![그림 15](Linked_image_Files/02-load-data-with-power-query-in-power-bi-desktop_image9.png)
 
-28. **Power Query 편집기** 창을 열려면 **홈** 리본 탭의 **쿼리** 그룹 내에서 **데이터 변환** 아이콘을 클릭합니다.
+17. **Power Query 편집기** 창을 열려면 **홈** 리본 탭의 **쿼리** 그룹 내에서 **데이터 변환** 아이콘을 클릭합니다.
 
 	![그림 20](Linked_image_Files/02-load-data-with-power-query-in-power-bi-desktop_image10.png)
 

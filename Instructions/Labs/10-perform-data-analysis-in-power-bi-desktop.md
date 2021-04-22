@@ -52,33 +52,33 @@
 
 *중요: 이전 랩에서 Power BI에 이미 로그인했다면 다음 작업부터 진행하세요.*
 
-12. 작업 표시줄에서 Microsoft Edge를 열려면 Microsoft Edge 프로그램 바로 가기를 클릭합니다.
+1. 작업 표시줄에서 Microsoft Edge를 열려면 Microsoft Edge 프로그램 바로 가기를 클릭합니다.
 
 	![그림 7](Linked_image_Files/10-perform-data-analysis-in-power-bi-desktop_image1.png)
 
-13. Microsoft Edge 브라우저 창에서 **https://powerbi.com** 으로 이동합니다.
+2. Microsoft Edge 브라우저 창에서 **https://powerbi.com** 으로 이동합니다.
 
 	*팁: Microsoft Edge 즐겨찾기 모음에서 Power BI 서비스 즐겨찾기를 사용할 수도 있습니다.*
 
-14. **로그인** 오른쪽 상단 모서리에 위치)을 클릭합니다.
+3. **로그인** 오른쪽 상단 모서리에 위치)을 클릭합니다.
 
 	![그림 5](Linked_image_Files/10-perform-data-analysis-in-power-bi-desktop_image2.png)
 
-15. 제공된 계정 세부 정보를 입력합니다.
+4. 제공된 계정 세부 정보를 입력합니다.
 
-16. 암호를 업데이트하라는 메시지가 표시되면 제공된 암호를 다시 입력한 다음 새 암호를 입력하고 확인합니다.
+5. 암호를 업데이트하라는 메시지가 표시되면 제공된 암호를 다시 입력한 다음 새 암호를 입력하고 확인합니다.
 
 	*중요: 새 암호를 기록해 두어야 합니다.*
 
-17. 로그인 프로세스를 완료합니다.
+6. 로그인 프로세스를 완료합니다.
 
-18. Microsoft Edge에서 로그인 상태를 유지하라는 메시지가 표시되면 **예**를 클릭합니다.
+7. Microsoft Edge에서 로그인 상태를 유지하라는 메시지가 표시되면 **예**를 클릭합니다.
 
-19. Microsoft Edge 브라우저 창의 Power BI 서비스 내 **탐색** 창에서 **내 작업 영역**을 확장합니다.
+8. Microsoft Edge 브라우저 창의 Power BI 서비스 내 **탐색** 창에서 **내 작업 영역**을 확장합니다.
 
 	![그림 4](Linked_image_Files/10-perform-data-analysis-in-power-bi-desktop_image3.png)
 
-20. Microsoft Edge 브라우저 창을 열어 둡니다.
+9. Microsoft Edge 브라우저 창을 열어 둡니다.
 
 ### **작업 2: 시작 - 데이터 세트 만들기**
 
