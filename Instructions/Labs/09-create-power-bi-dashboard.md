@@ -56,7 +56,7 @@
 
     ![그림 42](Linked_image_Files/09-create-power-bi-dashboard_image2.png)
 
-2. Microsoft Edge 브라우저 창에서 **https://powerbi.com**으로 이동합니다.
+2. Microsoft Edge 브라우저 창에서 **https://powerbi.com** 으로 이동합니다.
 
     *팁: Microsoft Edge 즐겨찾기 모음에서 Power BI 서비스 즐겨찾기를 사용할 수도 있습니다.*
 
@@ -212,7 +212,7 @@
 
     ![그림 11](Linked_image_Files/09-create-power-bi-dashboard_image24.png)
 
-15. **(공백)**의 응답을 확인합니다.
+15. **(공백)** 의 응답을 확인합니다.
 
     ![그림 14](Linked_image_Files/09-create-power-bi-dashboard_image25.png)
 

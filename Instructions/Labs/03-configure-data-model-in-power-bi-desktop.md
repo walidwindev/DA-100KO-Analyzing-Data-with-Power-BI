@@ -184,7 +184,7 @@
 
 	![그림 338](Linked_image_Files/03-configure-data-model-in-power-bi-desktop_image21.png)
 
-21. 다이어그램을 통해 **1** 및 * 지표로 표시되는 카디널리티를 쉽게 이해할 수 있습니다.
+21. 다이어그램을 통해 **1** 및 **"*"** 지표로 표시되는 카디널리티를 쉽게 이해할 수 있습니다.
 
 	*필터 방향은 화살표 머리로 표시됩니다. 실선은 활성 관계를 나타냅니다. 파선은 비활성 관계를 나타냅니다.*
 
@@ -498,9 +498,9 @@
 
 	- **나눗셈** 수학 연산 사용
 
-	- **Numerator**를 **Sales**로 설정 ** | Profit** 필드
+	- **Numerator**를 **Sales**로 설정 **| Profit** 필드
 
-	- **Denominator**를 **Sales**로 설정 ** | Sales** 필드
+	- **Denominator**를 **Sales**로 설정 **| Sales** 필드
 
 	- 측정 이름을 **Profit Margin**으로 바꾸기
 
