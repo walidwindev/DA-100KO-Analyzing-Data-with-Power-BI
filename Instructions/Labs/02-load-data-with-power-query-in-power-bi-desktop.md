@@ -34,9 +34,9 @@
 
 9. Power BI 대시보드 만들기
 
-10. Power BI Desktop에서 데이터 분석 수행
+10. Power BI 페이지를 매긴 보고서 만들기
 
-11. Power BI 페이지를 매긴 보고서 만들기
+11. Power BI Desktop에서 데이터 분석 수행
 
 ## **연습 1: 데이터 로드**
 
@@ -50,61 +50,61 @@
 
 1. Power BI Desktop을 열려면 작업 표시줄에서 Microsoft Power BI Desktop 바로 가기를 클릭합니다.
 
-	![그림 8](Linked_image_Files/02-load-data-with-power-query-in-power-bi-desktop_image1.png)
+    ![그림 8](Linked_image_Files/02-load-data-with-power-query-in-power-bi-desktop_image1.png)
 
-2. 시작 창을 닫으려면 창 왼쪽 위의 **X**를 클릭합니다.
+1. 시작 창을 닫으려면 창 왼쪽 위의 **X**를 클릭합니다.
 
-	![그림 7](Linked_image_Files/02-load-data-with-power-query-in-power-bi-desktop_image2.png)
+    ![그림 7](Linked_image_Files/02-load-data-with-power-query-in-power-bi-desktop_image2.png)
 
-3. 시작 Power BI Desktop 파일을 열려면 **파일** 리본 탭을 클릭하여 Backstage 뷰를 엽니다.
+1. 시작 Power BI Desktop 파일을 열려면 **파일** 리본 탭을 클릭하여 Backstage 뷰를 엽니다.
 
-4. **보고서 열기**를 선택합니다.
+1. **보고서 열기**를 선택합니다.
 
 	![그림 10](Linked_image_Files/02-load-data-with-power-query-in-power-bi-desktop_image3.png)
 
-5. **보고서 찾아보기**를 클릭합니다.
+1. **보고서 찾아보기**를 클릭합니다.
 
-	![그림 11](Linked_image_Files/02-load-data-with-power-query-in-power-bi-desktop_image4.png)
+    ![그림 11](Linked_image_Files/02-load-data-with-power-query-in-power-bi-desktop_image4.png)
 
-6. **열기** 창에서 **D:\DA100\Labs\load-data-with-power-query-in-power-bi-desktop\Starter** 폴더로 이동합니다.
+1. **열기** 창에서 **D:\DA100\Labs\02-load-data-with-power-query-in-power-bi-desktop\Starter** 폴더로 이동합니다.
 
-7. **판매 분석** 파일을 선택합니다.
+1. **판매 분석** 파일을 선택합니다.
 
-8. **열기**를 클릭합니다.
+1. **열기**를 클릭합니다.
 
 	![그림 12](Linked_image_Files/02-load-data-with-power-query-in-power-bi-desktop_image5.png)
 
-9. 정보 창이 열릴 수도 있는데 모두 닫으면 됩니다.
+1. 정보 창이 열릴 수도 있는데 모두 닫으면 됩니다.
 
-10. 리본 아래의 노란색 경고 메시지를 확인하세요.
+1. 리본 아래의 노란색 경고 메시지를 확인하세요.
 
 	*이 메시지는 모델 테이블로 로드할 쿼리가 적용되지 않았음을 알려 줍니다. 이 랩 뒷부분에서 쿼리를 적용합니다.*
 
-11. 경고 메시지를 해제하려면 노란색 경고 메시지 오른쪽의 **X**를 클릭합니다.
+1. 경고 메시지를 해제하려면 노란색 경고 메시지 오른쪽의 **X**를 클릭합니다.
 
 	![그림 13](Linked_image_Files/02-load-data-with-power-query-in-power-bi-desktop_image6.png)
 
-12. 파일 복사본을 만들려면 **파일** 리본 탭을 클릭하여 Backstage 뷰를 엽니다.
+1. 파일 복사본을 만들려면 **파일** 리본 탭을 클릭하여 Backstage 뷰를 엽니다.
 
-13. **다른 이름으로 저장**을 선택합니다.
+1. **다른 이름으로 저장**을 선택합니다.
 
-	![그림 18](Linked_image_Files/02-load-data-with-power-query-in-power-bi-desktop_image7.png)
+    ![그림 18](Linked_image_Files/02-load-data-with-power-query-in-power-bi-desktop_image7.png)
 
-14. 변경 내용을 적용하라는 메시지가 표시되면 **나중에 적용**을 클릭합니다.
+1. 변경 내용을 적용하라는 메시지가 표시되면 **나중에 적용**을 클릭합니다.
 
-	![그림 22](Linked_image_Files/02-load-data-with-power-query-in-power-bi-desktop_image8.png)
+    ![그림 22](Linked_image_Files/02-load-data-with-power-query-in-power-bi-desktop_image8.png)
 
-15. **다른 이름으로 저장** 창에서 **D:\DA100\MySolution** 폴더로 이동합니다.
+1. **다른 이름으로 저장** 창에서 **D:\DA100\MySolution** 폴더로 이동합니다.
 
-16. **저장**을 클릭합니다.
+1. **저장**을 클릭합니다.
 
-	![그림 15](Linked_image_Files/02-load-data-with-power-query-in-power-bi-desktop_image9.png)
+    ![그림 15](Linked_image_Files/02-load-data-with-power-query-in-power-bi-desktop_image9.png)
 
-17. **Power Query 편집기** 창을 열려면 **홈** 리본 탭의 **쿼리** 그룹 내에서 **데이터 변환** 아이콘을 클릭합니다.
+1. **Power Query 편집기** 창을 열려면 **홈** 리본 탭의 **쿼리** 그룹 내에서 **데이터 변환** 아이콘을 클릭합니다.
 
 	![그림 20](Linked_image_Files/02-load-data-with-power-query-in-power-bi-desktop_image10.png)
 
-### **작업 2: 영업 직원 쿼리 구성**
+### **작업 2 영업 직원 쿼리 구성**
 
 이 작업에서는 **Salesperson** 쿼리를 구성합니다.
 
@@ -228,9 +228,9 @@
 
 3. 마지막 두 열을 제거하려면 먼저 **DimEmployee** 열 머리글을 선택합니다.
 
-4. **Ctrl** 키를 누르면서 **DimSalesTerritory**열 머리글을 선택합니다.
+4. **Ctrl** 키를 누르면서 **DimSalesTerritory**열 헤더를 선택합니다.
 
-5. 선택한 열 머리글 중 하나를 마우스 오른쪽 단추로 클릭한 다음 컨텍스트 메뉴에서 **열 제거**를 선택합니다.
+5. 선택한 열 헤더 중 하나를 마우스 오른쪽 단추로 클릭한 다음 컨텍스트 메뉴에서 **열 제거**를 선택합니다.
 
 	![그림 5640](Linked_image_Files/02-load-data-with-power-query-in-power-bi-desktop_image28.png)
 
@@ -270,7 +270,7 @@
 
 	![그림 5644](Linked_image_Files/02-load-data-with-power-query-in-power-bi-desktop_image31.png)
 
-7. 모든 열을 선택 취소하려면 **(모든 열 선택)** 을 선택 취소합니다.
+7. 모든 열을 선택 취소하려면 **(모든 열 선택)**을 선택 취소합니다.
 
 8. **EnglishProductSubcategoryName** 및 **DimProductCategory** 열을 선택하세요.
 
@@ -296,7 +296,7 @@
 
 	- **EnglishProductName** -> **Product**
 
-	- **StandardCost** -> **Standard Cost** (공백 포함)
+	- **StandardCost** -> **Standard Cost**(공백 포함)
 
 	- **EnglishProductSubcategoryName** -> **Subcategory**
 
@@ -361,7 +361,7 @@
 
 9. 다음 4개 열의 이름을 바꿉니다.
 
-	- **BusinessType** -> **Business Type** (공백 포함)
+	- **BusinessType** -> **Business Type**(공백 포함)
 
 	- **ResellerName** -> **Reseller**
 
@@ -369,7 +369,7 @@
 
 	- **EnglishCountryRegionName** -> **Country-Region**
 
-10. 상태 표시줄에서 쿼리에 열이 6개, 행이 701개 있는지 확인합니다.
+10. 상태 표시줄에서 쿼리에 6개의 열과 701개의 행이 있는지 확인합니다.
 
 	![그림 5657](Linked_image_Files/02-load-data-with-power-query-in-power-bi-desktop_image42.png)
 
@@ -466,7 +466,7 @@
    ```
 
 
-	*이 식은 **TotalProductCost** 값이 누락되었는지 테스트합니다. 누락된 경우 **OrderQuantity** 값을 **StandardCost** 값으로 곱하여 값을 생성하며 그렇지 않으면 기존 **TotalProductCost** 값을 사용합니다.*
+*이 식은 **TotalProductCost** 값이 누락되었는지 테스트합니다. 누락된 경우 **OrderQuantity** 값을 **StandardCost** 값으로 곱하여 값을 생성하며 그렇지 않으면 기존 **TotalProductCost** 값을 사용합니다.*
 
 9. **확인**을 클릭합니다.
 
@@ -482,7 +482,7 @@
 
 	- **OrderQuantity** -> **Quantity**
 
-	- **UnitPrice** -> **Unit Price** (공백 포함)
+	- **UnitPrice** -> **Unit Price**(공백 포함)
 
 	- **SalesAmount** -> **Sales**
 
@@ -520,7 +520,7 @@
 
 2. 쿼리 이름을 **대상**으로 변경합니다.
 
-3. 12개월 열 (**M01**-**M12**) 을 피벗 해제하려면 먼저 **연도** 및 **EmployeeID** 열 머리글을 함께 선택합니다.
+3. 12개월 열(**M01**-**M12**)을 피벗 해제하려면 먼저 **연도** 및 **EmployeeID** 열 머리글을 함께 선택합니다.
 
 	![그림 5673](Linked_image_Files/02-load-data-with-power-query-in-power-bi-desktop_image54.png)
 
@@ -576,7 +576,7 @@
 
 17. 새 열의 이름을 바꾸려면 **병합된** 열 머리글을 두 번 클릭합니다.
 
-18. **TargetMonth**로 열 이름을 바꿉니다.
+18. **TargetMonth**로 열 이름을 변경합니다.
 
 	![그림 5680](Linked_image_Files/02-load-data-with-power-query-in-power-bi-desktop_image61.png)
 

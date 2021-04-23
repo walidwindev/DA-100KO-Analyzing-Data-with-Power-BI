@@ -36,9 +36,9 @@
 
 9. **Power BI 대시보드 만들기**
 
-10. Power BI Desktop에서 데이터 분석 수행
+10. Power BI 페이지를 매긴 보고서 만들기
 
-11. Power BI 페이지를 매긴 보고서 만들기
+11. Power BI Desktop에서 데이터 분석 수행
 
 ## **연습 1: 대시보드 만들기**
 
@@ -80,7 +80,7 @@
 
 9. Microsoft Edge 브라우저 창을 열어 둡니다.
 
-### **작업 2: 시작 - 보고서 열기**
+### **작업 2 시작 - 보고서 열기**
 
 이 작업에서는 시작 보고서를 열어 랩용 환경을 설정합니다.
 
@@ -110,7 +110,7 @@
 
     ![그림 34](Linked_image_Files/09-create-power-bi-dashboard_image9.png)
 
-8. **열기** 창에서 **D:\DA100\Labs\create-power-bi-dashboard\Starter** 폴더로 이동합니다.
+8. **열기** 창에서 **D:\DA100\Labs\09-create-power-bi-dashboard\Starter** 폴더로 이동합니다.
 
 9. **판매 분석** 파일을 선택합니다.
 
@@ -154,7 +154,7 @@
 
     ![그림 5](Linked_image_Files/09-create-power-bi-dashboard_image16.png)
 
-4. **열기** 창에서 **D:\DA100\Labs\design-report-in-power-bi-desktop-enhanced\Solution** 폴더로 이동합니다.
+4. **열기** 창에서 **D:\DA100\Labs\08-design-report-in-power-bi-desktop-enhanced\Solution** 폴더로 이동합니다.
 
 5. **Sales Analysis.pbix** 파일을 선택한 다음 **열기**를 클릭합니다.
 
@@ -346,7 +346,7 @@
 
     *이제 **AdventureWorksDW2020** 데이터베이스에 2020년 6월 판매 주문이 포함되어 있습니다.*
 
-### **작업 2: Power BI Desktop 파일 새로 고침**
+### **작업 2 Power BI Desktop 파일 새로 고침**
 
 이 작업에서는 **판매 분석** Power BI Desktop 파일을 열고 데이터를 새로 고친 다음 파일을 **판매 분석** 작업 영역에 업로드합니다.
 

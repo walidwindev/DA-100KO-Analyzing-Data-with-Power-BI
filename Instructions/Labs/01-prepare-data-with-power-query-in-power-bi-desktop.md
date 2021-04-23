@@ -40,9 +40,9 @@
 
 9. Power BI 대시보드 만들기
 
-10. Power BI Desktop에서 데이터 분석 수행
+10. Power BI 페이지를 매긴 보고서 만들기
 
-11. Power BI 페이지를 매긴 보고서 만들기
+11. Power BI Desktop에서 데이터 분석 수행
 
 ## **연습 1: 데이터 준비**
 
@@ -54,59 +54,59 @@
 
 1. Power BI Desktop을 열려면 작업 표시줄에서 Microsoft Power BI Desktop 바로 가기를 클릭합니다.
 
-	![그림 2](Linked_image_Files/01-prepare-data-with-power-query-in-power-bi-desktop_image1.png)
+ 	![그림 2](Linked_image_Files/01-prepare-data-with-power-query-in-power-bi-desktop_image1.png)
 
-2. 시작 창을 닫으려면 창 왼쪽 위의 **X**를 클릭합니다.
+1. 시작 창을 닫으려면 창 오른쪽 위의 **X**를 클릭합니다.
 
-	![그림 3](Linked_image_Files/01-prepare-data-with-power-query-in-power-bi-desktop_image2.png)
+ 	![그림 3](Linked_image_Files/01-prepare-data-with-power-query-in-power-bi-desktop_image2.png)
 
-3. 파일을 저장하려면 **파일** 리본 탭을 클릭하여 Backstage 뷰를 엽니다.
+1. 파일을 저장하려면 **파일** 리본 탭을 클릭하여 Backstage 뷰를 엽니다.
 
-4. **저장**을 선택합니다.
+1. **저장**을 선택합니다.
 
-	![그림 4](Linked_image_Files/01-prepare-data-with-power-query-in-power-bi-desktop_image3.png)
+ 	![그림 4](Linked_image_Files/01-prepare-data-with-power-query-in-power-bi-desktop_image3.png)
 
-5. **다른 이름으로 저장** 창에서 **D:\DA100\MySolution** 폴더로 이동합니다.
+1. **다른 이름으로 저장** 창에서 **D:\DA100\MySolution** 폴더로 이동합니다.
 
-6. **파일 이름** 상자에 **영업 분석**을 입력합니다.
+1. **파일 이름** 상자에 **영업 분석**을 입력합니다.
 
-	![그림 14](Linked_image_Files/01-prepare-data-with-power-query-in-power-bi-desktop_image4.png)
+ 	![그림 14](Linked_image_Files/01-prepare-data-with-power-query-in-power-bi-desktop_image4.png)
 
-7. **저장**을 클릭합니다.
+1. **저장**을 클릭합니다.
 
 	![그림 17](Linked_image_Files/01-prepare-data-with-power-query-in-power-bi-desktop_image5.png)
 
-	팁: 오른쪽 위에 있는 **저장** 아이콘을 클릭하여 파일을 저장할 수도 있습니다.
+	팁: 왼쪽 위에 있는 **저장** 아이콘을 클릭하여 파일을 저장할 수도 있습니다.
 
 	![그림 18](Linked_image_Files/01-prepare-data-with-power-query-in-power-bi-desktop_image6.png)
 
-### **작업 2: Power BI Desktop 옵션 설정하기**
+### **작업 2 Power BI Desktop 옵션 설정하기**
 
 이 작업에서는 Power BI Desktop 옵션을 설정합니다.
 
 1. Power BI Desktop에서 **파일** 리본 탭을 클릭하여 배경 뷰를 엽니다.
 
-2. 왼쪽에서 **옵션 및 설정**을 선택한 다음 **옵션**을 선택합니다.
+1. 왼쪽에서 **옵션 및 설정**을 선택한 다음 **옵션**을 선택합니다.
 
-	![그림 1](Linked_image_Files/01-prepare-data-with-power-query-in-power-bi-desktop_image7.png)
+ 	![그림 1](Linked_image_Files/01-prepare-data-with-power-query-in-power-bi-desktop_image7.png)
 
-3. **옵션** 창의 왼쪽에 있는 **현재 파일** 그룹에서 **데이터 로드**를 선택합니다.
+1. **옵션** 창의 왼쪽에 있는 **현재 파일** 그룹에서 **데이터 로드**를 선택합니다.
 
-	![그림 5](Linked_image_Files/01-prepare-data-with-power-query-in-power-bi-desktop_image8.png)
+    ![그림 5](Linked_image_Files/01-prepare-data-with-power-query-in-power-bi-desktop_image8.png)
 
-현재 파일의 **데이터 로드** 설정을 사용하면 모델링할 때 기본 동작을 결정하는 옵션의 설정을 허용합니다.
+    현재 파일의 **데이터 로드** 설정을 사용하면 모델링할 때 기본 동작을 결정하는 옵션의 설정을 허용합니다.
 
-4. **관계** 그룹에서는 이미 선택되어 있는 두 옵션의 선택을 취소합니다.
+1. **관계** 그룹에서는 이미 선택되어 있는 두 옵션의 선택을 취소합니다.
 
 	![그림 7](Linked_image_Files/01-prepare-data-with-power-query-in-power-bi-desktop_image9.png)
 
-이 두 가지 옵션은 데이터 모델을 개발할 때 유용할 수 있지만 랩 환경을 지원하기 위해 비활성화되었습니다. **Power BI Desktop에서 데이터 로드** 랩에서 관계를 만들 때 각 옵션을 추가하는 이유를 알아볼 것입니다.
+    이 두 가지 옵션은 데이터 모델을 개발할 때 유용할 수 있지만 랩 환경을 지원하기 위해 비활성화되었습니다. **Power BI Desktop에서 데이터 로드** 랩에서 관계를 만들 때 각 옵션을 추가하는 이유를 알아볼 것입니다.
 
-5. **확인**을 클릭합니다.
+1. **확인**을 클릭합니다.
 
-	![그림 9](Linked_image_Files/01-prepare-data-with-power-query-in-power-bi-desktop_image10.png)
+    ![그림 9](Linked_image_Files/01-prepare-data-with-power-query-in-power-bi-desktop_image10.png)
 
-6. Power BI Desktop 파일을 저장합니다.
+1. Power BI Desktop 파일을 저장합니다.
 
 ### **작업 3: SQL Server로부터 데이터 받기**
 
@@ -262,7 +262,7 @@
 
 21. **웨어 하우스** 바 위에 커서를 가리키면 이 값이 있는 5개의 행이 보입니다.
 
-**Power BI Desktop에서 데이터 로드** 랩에서 변환을 적용하여 이 5개 행의 레이블을 재지정할 것입니다.
+    **Power BI Desktop에서 데이터 로드** 랩에서 변환을 적용하여 이 5개 행의 레이블을 재지정할 것입니다.
 
 22. **쿼리** 창에서 **DimSalesTerritory** 쿼리를 선택합니다.
 

@@ -34,9 +34,9 @@
 
 9. Power BI 대시보드 만들기
 
-10. Power BI Desktop에서 데이터 분석 수행
+10. Power BI 페이지를 매긴 보고서 만들기
 
-11. Power BI 페이지를 매긴 보고서 만들기
+11. Power BI Desktop에서 데이터 분석 수행
 
 ## **연습 1: 필터 컨텍스트 작업**
 
@@ -52,47 +52,47 @@
 
     ![그림 12](Linked_image_Files/06-create-dax-calculations-in-power-bi-desktop-advanced_image1.png)
 
-2. 시작 창을 닫으려면 창 왼쪽 위의 **X**를 클릭합니다.
+1. 시작 창을 닫으려면 창 왼쪽 위의 **X**를 클릭합니다.
 
     ![그림 11](Linked_image_Files/06-create-dax-calculations-in-power-bi-desktop-advanced_image2.png)
 
-3. 시작 Power BI Desktop 파일을 열려면 **파일** 리본 탭을 클릭하여 Backstage 뷰를 엽니다.
+1. 시작 Power BI Desktop 파일을 열려면 **파일** 리본 탭을 클릭하여 Backstage 뷰를 엽니다.
 
-4. **보고서 열기**를 선택합니다.
+1. **보고서 열기**를 선택합니다.
 
     ![그림 10](Linked_image_Files/06-create-dax-calculations-in-power-bi-desktop-advanced_image3.png)
 
-5. **보고서 찾아보기**를 클릭합니다.
+1. **보고서 찾아보기**를 클릭합니다.
 
     ![그림 9](Linked_image_Files/06-create-dax-calculations-in-power-bi-desktop-advanced_image4.png)
 
-6. **열기** 창에서 **D:\DA100\Labs\create-dax-calculations-in-power-bi-desktop-advanced\Starter** 폴더로 이동합니다.
+1. **열기** 창에서 **D:\DA100\Labs\06-create-dax-calculations-in-power-bi-desktop-advanced\Starter** 폴더로 이동합니다.
 
-7. **판매 분석** 파일을 선택합니다.
+1. **판매 분석** 파일을 선택합니다.
 
-8. **열기**를 클릭합니다.
+1. **열기**를 클릭합니다.
 
     ![그림 8](Linked_image_Files/06-create-dax-calculations-in-power-bi-desktop-advanced_image5.png)
 
-9. 정보 창이 열릴 수도 있는데 모두 닫으면 됩니다.
+1. 정보 창이 열릴 수도 있는데 모두 닫으면 됩니다.
 
-10. 파일 복사본을 만들려면 **파일** 리본 탭을 클릭하여 Backstage 뷰를 엽니다.
+1. 파일 복사본을 만들려면 **파일** 리본 탭을 클릭하여 Backstage 뷰를 엽니다.
 
-11. **다른 이름으로 저장**을 선택합니다.
+1. **다른 이름으로 저장**을 선택합니다.
 
     ![그림 7](Linked_image_Files/06-create-dax-calculations-in-power-bi-desktop-advanced_image6.png)
 
-12. 변경 내용을 적용하라는 메시지가 표시되면 **적용**을 클릭합니다.
+1. 변경 내용을 적용하라는 메시지가 표시되면 **적용**을 클릭합니다.
 
     ![그림 6](Linked_image_Files/06-create-dax-calculations-in-power-bi-desktop-advanced_image7.png)
 
-13. **다른 이름으로 저장** 창에서 **D:\DA100\MySolution** 폴더로 이동합니다.
+1. **다른 이름으로 저장** 창에서 **D:\DA100\MySolution** 폴더로 이동합니다.
 
-14. **저장**을 클릭합니다.
+1. **저장**을 클릭합니다.
 
     ![그림 2](Linked_image_Files/06-create-dax-calculations-in-power-bi-desktop-advanced_image8.png)
 
-### **작업 2: 행렬 시각적 개체 만들기**
+### **작업 2 행렬 시각적 개체 만들기**
 
 이 작업에서는 새 측정값 테스트를 지원할 행렬 시작적 개체를 만듭니다.
 
@@ -144,7 +144,7 @@
 
 1. 다음 식에 따라 **판매** 테이블에 측정값을 추가합니다.
 
-    *편의를 위해 이 랩의 모든 DAX 정의를 **D:\DA100\Labs\create-dax-calculations-in-power-bi-desktop-advanced\Assets\Snippets.txt** 파일에서 복사할 수 있습니다.*
+    *편의를 위해 이 랩의 모든 DAX 정의를 **D:\DA100\Labs\06-create-dax-calculations-in-power-bi-desktop-advanced\Assets\Snippets.txt** 파일에서 복사할 수 있습니다.*
 
 
     **DAX**
@@ -292,7 +292,7 @@
     Sales % Group =  
     ‎IF(  
     ‎ ISINSCOPE(Region[Region])  
-    ​ || ISINSCOPE(Region[Country]),  
+    ‎ || ISINSCOPE(Region[Country]),  
     ‎ DIVIDE(  
     ‎ SUM(Sales[Sales]),  
     ‎ CALCULATE(  
@@ -353,7 +353,7 @@
 
     *일반적인 시간 필터 조작을 지원하기 위해 DAX에서 많은 시간 인텔리전스 기능을 사용할 수 있습니다.*
 
-### **작업 2: YoY 성장률 측정값 만들기**
+### **작업 2 YoY 성장률 측정값 만들기**
 
 이 작업에서는 매출 YoY 성장률 측정값을 만듭니다.
 

@@ -36,9 +36,9 @@
 
 9. Power BI 대시보드 만들기
 
-10. Power BI Desktop에서 데이터 분석 수행
+10. Power BI 페이지를 매긴 보고서 만들기
 
-11. Power BI 페이지를 매긴 보고서 만들기
+11. Power BI Desktop에서 데이터 분석 수행
 
 ## **연습 1: 계산된 테이블 만들기**
 
@@ -52,49 +52,49 @@
 
 1. Power BI Desktop을 열려면 작업 표시줄에서 Microsoft Power BI Desktop 바로 가기를 클릭합니다.
 
-	![그림 50](Linked_image_Files/05-create-dax-calculations-in-power-bi-desktop_image1.png)
+ 	![그림 50](Linked_image_Files/05-create-dax-calculations-in-power-bi-desktop_image1.png)
 
-2. 시작 창을 닫으려면 창 왼쪽 위의 **X**를 클릭합니다.
+1. 시작 창을 닫으려면 창 왼쪽 위의 **X**를 클릭합니다.
 
-	![그림 49](Linked_image_Files/05-create-dax-calculations-in-power-bi-desktop_image2.png)
+ 	![그림 49](Linked_image_Files/05-create-dax-calculations-in-power-bi-desktop_image2.png)
 
-3. 시작 Power BI Desktop 파일을 열려면 **파일** 리본 탭을 클릭하여 Backstage 뷰를 엽니다.
+1. 시작 Power BI Desktop 파일을 열려면 **파일** 리본 탭을 클릭하여 Backstage 뷰를 엽니다.
 
-4. **보고서 열기**를 선택합니다.
+1. **보고서 열기**를 선택합니다.
 
-	![그림 48](Linked_image_Files/05-create-dax-calculations-in-power-bi-desktop_image3.png)
+ 	![그림 48](Linked_image_Files/05-create-dax-calculations-in-power-bi-desktop_image3.png)
 
-5. **보고서 찾아보기**를 클릭합니다.
+1. **보고서 찾아보기**를 클릭합니다.
 
-	![그림 47](Linked_image_Files/05-create-dax-calculations-in-power-bi-desktop_image4.png)
+ 	![그림 47](Linked_image_Files/05-create-dax-calculations-in-power-bi-desktop_image4.png)
 
-6. **열기** 창에서 **D:\DA100\Labs\create-dax-calculations-in-power-bi-desktop\Starter** 폴더로 이동합니다.
+1. **열기** 창에서 **D:\DA100\Labs\05-create-dax-calculations-in-power-bi-desktop\Starter** 폴더로 이동합니다.
 
-7. **판매 분석** 파일을 선택합니다.
+1. **판매 분석** 파일을 선택합니다.
 
-8. **열기**를 클릭합니다.
+1. **열기**를 클릭합니다.
 
-	![그림 35](Linked_image_Files/05-create-dax-calculations-in-power-bi-desktop_image5.png)
+ 	![그림 35](Linked_image_Files/05-create-dax-calculations-in-power-bi-desktop_image5.png)
 
-9. 정보 창이 열릴 수도 있는데 모두 닫으면 됩니다.
+1. 정보 창이 열릴 수도 있는데 모두 닫으면 됩니다.
 
-10. 파일 복사본을 만들려면 **파일** 리본 탭을 클릭하여 Backstage 뷰를 엽니다.
+1. 파일 복사본을 만들려면 **파일** 리본 탭을 클릭하여 Backstage 뷰를 엽니다.
 
-11. **다른 이름으로 저장**을 선택합니다.
+1. **다른 이름으로 저장**을 선택합니다.
 
-	![그림 34](Linked_image_Files/05-create-dax-calculations-in-power-bi-desktop_image6.png)
+ 	![그림 34](Linked_image_Files/05-create-dax-calculations-in-power-bi-desktop_image6.png)
 
-12. 변경 내용을 적용하라는 메시지가 표시되면 **적용**을 클릭합니다.
+1. 변경 내용을 적용하라는 메시지가 표시되면 **적용**을 클릭합니다.
 
-	![그림 25](Linked_image_Files/05-create-dax-calculations-in-power-bi-desktop_image7.png)
+ 	![그림 25](Linked_image_Files/05-create-dax-calculations-in-power-bi-desktop_image7.png)
 
-13. **다른 이름으로 저장** 창에서 **D:\DA100\MySolution** 폴더로 이동합니다.
+1. **다른 이름으로 저장** 창에서 **D:\DA100\MySolution** 폴더로 이동합니다.
 
-14. **저장**을 클릭합니다.
+1. **저장**을 클릭합니다.
 
 	![그림 13](Linked_image_Files/05-create-dax-calculations-in-power-bi-desktop_image8.png)
 
-### **작업 2: Salesperson 테이블 만들기**
+### **작업 2 Salesperson 테이블 만들기**
 
 이 작업에서는 **Salesperson** 테이블(**Sales**와의 직접 관계)을 만듭니다.
 
@@ -106,7 +106,7 @@
 
 	![그림 4](Linked_image_Files/05-create-dax-calculations-in-power-bi-desktop_image10.png)
 
-	*편의를 위해 이 랩의 모든 DAX 정의를 **D:\DA100\Labs\create-dax-calculations-in-power-bi-desktop\Assets\Snippets.txt** 파일에서 복사할 수 있습니다.*
+	*편의를 위해 이 랩의 모든 DAX 정의를 **D:\DA100\Labs\05-create-dax-calculations-in-power-bi-desktop\Assets\Snippets.txt** 파일에서 복사할 수 있습니다.*
 
 	*먼저 테이블 이름을 입력하고 나서 등호(=)를 입력한 다음 테이블을 반환하는 DAX 수식을 입력하면 계산된 테이블이 만들어집니다. 데이터 모델에 이미 있는 테이블 이름을 사용할 수는 없습니다.*
 
@@ -244,11 +244,11 @@
 
 	![그림 51](Linked_image_Files/05-create-dax-calculations-in-power-bi-desktop_image23.png)
 
-8. **필드** 창의 **Date** 테이블 내부에서 **Year** 필드를 **행** 웰로 끌어갑니다.
+8. **필드** 창의 **Date** 테이블 내부에서 **Year** 필드를 **행** 웰/영역으로 끌어갑니다.
 
 	![그림 17](Linked_image_Files/05-create-dax-calculations-in-power-bi-desktop_image24.png)
 
-9. **Month** 필드를 **Year** 필드 바로 아래 **행** 웰로 끌어갑니다.
+9. **Month** 필드를 **Year** 필드 바로 아래 **행** 웰/영역으로 끌어갑니다.
 
 	![그림 18](Linked_image_Files/05-create-dax-calculations-in-power-bi-desktop_image25.png)
 
@@ -316,7 +316,7 @@
 
 	- **Date | Date**와 **Sales | OrderDate**
 
-	- **Date | 날짜** 와 **대상** 간 **| TargetMonth**
+	- **Date | 날짜** 와 **대상** 간 ** | TargetMonth**
 
 5. 다음 두 개 열을 숨깁니다.
 
@@ -358,7 +358,7 @@
 
 이 작업에서는 간단한 측정값을 만듭니다. 간단한 측정값은 단일 열의 값을 집계하거나 테이블의 행 개수를 계산합니다.
 
-1. 보고서 뷰의 **2페이지**에 있는 **필드** 창에서 **판매**를 드래그합니다 **| Unit Price** 필드를 행렬 시각적 개체로 끌어갑니다.
+1. 보고서 뷰의 **2페이지**에 있는 **필드** 창에서 **판매**를 드래그합니다 ** | Unit Price** 필드를 행렬 시각적 개체로 끌어갑니다.
 
 	*이 랩에서는 단축 표기를 사용해 필드를 참조합니다. 다음과 같이 표시됩니다. **Sales | Unit Price**. 이 예제에서 **Sales**는 테이블 이름이고 **Unit Price**는 필드 이름입니다.*
 
@@ -366,7 +366,7 @@
 
 	***Power BI Desktop에서 데이터 모델링, 2부** 랩에서 확인했던 것처럼, **Average**를 기준으로 내용이 요약되도록 **Unit Price** 열을 설정합니다. 행렬 시각적 개체에 표시되는 결과는 월별 평균 단가(단가 값의 합을 단가 개수로 나눈 값)입니다.*
 
-2. 시각적 필드 창(**시각화** 창 아래에 있음)의 **값** 웰에 **단가**가 나열됩니다.
+2. 시각적 필드 창(**시각화** 창 아래에 있음)의 **값** 필드 웰/영역에 **단가**가 나열됩니다.
 
 	![그림 28](Linked_image_Files/05-create-dax-calculations-in-power-bi-desktop_image36.png)
 
@@ -440,7 +440,7 @@
 
 	![그림 36](Linked_image_Files/05-create-dax-calculations-in-power-bi-desktop_image41.png)
 
-14. 보고서 뷰의 행렬 시각적 개체의 **값**에서 **단가** 필드에 대해 X를 클릭하여 제거합니다.
+14. 보고서 뷰의 행렬 시각적 개체의 **값** 웰/영역에서 **단가** 필드에 대해 X를 클릭하여 제거합니다.
 
 	![그림 38](Linked_image_Files/05-create-dax-calculations-in-power-bi-desktop_image42.png)
 
@@ -462,7 +462,7 @@
 
 	![그림 39](Linked_image_Files/05-create-dax-calculations-in-power-bi-desktop_image43.png)
 
-### **작업 2: 추가 측정값 만들기**
+### **작업 2 추가 측정값 만들기**
 
 이 작업에서는 보다 복잡한 수식을 사용하는 추가 측정값을 만듭니다.
 

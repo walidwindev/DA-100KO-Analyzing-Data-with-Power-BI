@@ -38,9 +38,9 @@
 
 9. Power BI 대시보드 만들기
 
-10. Power BI Desktop에서 데이터 분석 수행
+10. Power BI 페이지를 매긴 보고서 만들기
 
-11. Power BI 페이지를 매긴 보고서 만들기
+11. Power BI Desktop에서 데이터 분석 수행
 
 ## **연습 1: 모델 관계 만들기**
 
@@ -54,49 +54,49 @@
 
 1. Power BI Desktop을 열려면 작업 표시줄에서 Microsoft Power BI Desktop 바로 가기를 클릭합니다.
 
-	![그림 12](Linked_image_Files/03-configure-data-model-in-power-bi-desktop_image1.png)
+    ![그림 12](Linked_image_Files/03-configure-data-model-in-power-bi-desktop_image1.png)
 
-2. 시작 창을 닫으려면 창 왼쪽 위의 **X**를 클릭합니다.
+1. 시작 창을 닫으려면 창 왼쪽 위의 **X**를 클릭합니다.
 
-	![그림 11](Linked_image_Files/03-configure-data-model-in-power-bi-desktop_image2.png)
+ 	![그림 11](Linked_image_Files/03-configure-data-model-in-power-bi-desktop_image2.png)
 
-3. 시작 Power BI Desktop 파일을 열려면 **파일** 리본 탭을 클릭하여 Backstage 뷰를 엽니다.
+1. 시작 Power BI Desktop 파일을 열려면 **파일** 리본 탭을 클릭하여 Backstage 뷰를 엽니다.
 
-4. **보고서 열기**를 선택합니다.
+1. **보고서 열기**를 선택합니다.
 
-	![그림 10](Linked_image_Files/03-configure-data-model-in-power-bi-desktop_image3.png)
+ 	![그림 10](Linked_image_Files/03-configure-data-model-in-power-bi-desktop_image3.png)
 
-5. **보고서 찾아보기**를 클릭합니다.
+1. **보고서 찾아보기**를 클릭합니다.
 
-	![그림 8](Linked_image_Files/03-configure-data-model-in-power-bi-desktop_image4.png)
+ 	![그림 8](Linked_image_Files/03-configure-data-model-in-power-bi-desktop_image4.png)
 
-6. **열기** 창에서 **D:\DA100\Labs\configure-data-model-in-power-bi-desktop\Starter** 폴더로 이동합니다.
+1. **열기** 창에서 **D:\DA100\Labs\03-configure-data-model-in-power-bi-desktop\Starter** 폴더로 이동합니다.
 
-7. **판매 분석** 파일을 선택합니다.
+1. **판매 분석** 파일을 선택합니다.
 
-8. **열기**를 클릭합니다.
+1. **열기**를 클릭합니다.
 
-	![그림 7](Linked_image_Files/03-configure-data-model-in-power-bi-desktop_image5.png)
+ 	![그림 7](Linked_image_Files/03-configure-data-model-in-power-bi-desktop_image5.png)
 
-9. 정보 창이 열릴 수도 있는데 모두 닫으면 됩니다.
+1. 정보 창이 열릴 수도 있는데 모두 닫으면 됩니다.
 
-10. 파일 복사본을 만들려면 **파일** 리본 탭을 클릭하여 Backstage 뷰를 엽니다.
+1. 파일 복사본을 만들려면 **파일** 리본 탭을 클릭하여 Backstage 뷰를 엽니다.
 
-11. **다른 이름으로 저장**을 선택합니다.
+1. **다른 이름으로 저장**을 선택합니다.
 
-	![그림 5](Linked_image_Files/03-configure-data-model-in-power-bi-desktop_image6.png)
+ 	![그림 5](Linked_image_Files/03-configure-data-model-in-power-bi-desktop_image6.png)
 
-12. 변경 내용을 적용하라는 메시지가 표시되면 **적용**을 클릭합니다.
+1. 변경 내용을 적용하라는 메시지가 표시되면 **적용**을 클릭합니다.
 
-	![그림 15](Linked_image_Files/03-configure-data-model-in-power-bi-desktop_image7.png)
+ 	![그림 15](Linked_image_Files/03-configure-data-model-in-power-bi-desktop_image7.png)
 
-13. **다른 이름으로 저장** 창에서 **D:\DA100\MySolution** 폴더로 이동합니다.
+1. **다른 이름으로 저장** 창에서 **D:\DA100\MySolution** 폴더로 이동합니다.
 
-14. **저장**을 클릭합니다.
+1. **저장**을 클릭합니다.
 
-	![그림 3](Linked_image_Files/03-configure-data-model-in-power-bi-desktop_image8.png)
+ 	![그림 3](Linked_image_Files/03-configure-data-model-in-power-bi-desktop_image8.png)
 
-### **작업 2: 모델 관계 만들기**
+### **작업 2 모델 관계 만들기**
 
 이 작업에서는 모델 관계를 만듭니다.
 
@@ -122,7 +122,7 @@
 
 	![그림 329](Linked_image_Files/03-configure-data-model-in-power-bi-desktop_image12.png)
 
-	*이 랩에서는 단축 표기를 사용해 필드를 참조합니다. 다음과 같이 표시됩니다. **Product | Category**. 이 예제에서 **Product**는 테이블 이름이고 **Category**는 필드 이름입니다.*
+	*이 랩에서는 단축 표기를 사용해 필드를 참조합니다. 다음과 같이 표시됩니다. **제품 | Category**. 이 예제에서 **Product**는 테이블 이름이고 **Category**는 필드 이름입니다.*
 
 6. 테이블에 열을 하나 더 추가하려면 **필드** 창에서 **Sales | Sales** 필드를 선택합니다.
 
@@ -154,13 +154,13 @@
 
 	*열은 동일한 이름 및 데이터 형식을 공유하기 때문에 선택되었습니다.*
 
-14. **카디널리티** 드롭다운 목록에서 **일대다(1:*)** 가 선택된 것을 알 수 있습니다.
+14. **카디널리티** 드롭다운 목록에서 **일대다(1:*)**가 선택된 것을 알 수 있습니다.
 
 	*Power BI는 **제품** 테이블의 **ProductKey** 열이 고유한 값을 포함하는 것을 이해하기 때문에 카디널리티가 자동으로 감지되었습니다. 일대다 관계는 가장 일반적인 카디널리티이며 이 랩에서 만드는 모든 관계는 이 유형이 됩니다. **Power BI Desktop에서 데이터 모델링, 2부** 랩에서 다대다 카디널리티를 사용할 것입니다.*
 
 15. **교차 필터 방향** 드롭다운 목록에서 **단일**이 선택된 것을 확인할 수 있습니다.
 
-	*단일 필터 방향은 필터가 "일 쪽"에서 "다 쪽"으로 전파된다는 것을 의미합니다. 이 경우 **제품**테이블에 적용된 필터가 **판매** 테이블에 전파되지만 반대 방향으로는 전파되지 않음을 의미합니다. **Power BI Desktop에서 데이터 모델링, 2부** 랩에서 양방향 관계를 사용할 것입니다.*
+	*단일 필터 방향은 필터가 "일 쪽"에서 "다 쪽"으로 전파된다는 것을 의미합니다. 이 경우 **제품 **테이블에 적용된 필터가 **판매** 테이블에 전파되지만 반대 방향으로는 전파되지 않음을 의미합니다. **Power BI Desktop에서 데이터 모델링, 2부** 랩에서 양방향 관계를 사용할 것입니다.*
 
 16. **Mark This Relationship Active**가 선택되어 있습니다.
 
@@ -184,7 +184,7 @@
 
 	![그림 338](Linked_image_Files/03-configure-data-model-in-power-bi-desktop_image21.png)
 
-21. 다이어그램을 통해 **1** 및 **"*"** 지표로 표시되는 카디널리티를 쉽게 이해할 수 있습니다.
+21. 다이어그램을 통해 **1** 및 **"*"* 지표로 표시되는 카디널리티를 쉽게 이해할 수 있습니다.
 
 	*필터 방향은 화살표 머리로 표시됩니다. 실선은 활성 관계를 나타냅니다. 파선은 비활성 관계를 나타냅니다.*
 
@@ -262,7 +262,7 @@
 
 	*표시 폴더는 특히 많은 필드로 구성된 테이블을 정리할 수 있는 좋은 방법입니다.*
 
-### **작업 2: Region 테이블 구성**
+### **작업 2 Region 테이블 구성**
 
 이 작업에서는 **Region** 테이블을 구성합니다.
 
@@ -276,7 +276,7 @@
 
 	![그림 350](Linked_image_Files/03-configure-data-model-in-power-bi-desktop_image31.png)
 
-2. **국가** 열( **국가** 계층 구조 수준이 아님)을 선택합니다.
+2. **국가** 열(**국가** 계층 구조 수준이 아님)을 선택합니다.
 
 3. **속성** 창에서 **고급** 섹션(창 아래쪽에 있음)을 확장한 다음 **데이터 범주** 드롭다운 목록에서 **국가/지역**을 선택합니다.
 
@@ -314,7 +314,7 @@
 
 	- **State-Province**를 **시/도**로 분류
 
-	- **City**를 **구/군/시**로 분류
+	- **City**를 **도시**로 분류
 
 ### **작업 4: Sales 테이블 구성**
 
@@ -498,9 +498,9 @@
 
 	- **나눗셈** 수학 연산 사용
 
-	- **Numerator**를 **Sales**로 설정 **| Profit** 필드
+	- **Numerator**를 **Sales**로 설정 ** | Profit** 필드
 
-	- **Denominator**를 **Sales**로 설정 **| Sales** 필드
+	- **Denominator**를 **Sales**로 설정 ** | Sales** 필드
 
 	- 측정 이름을 **Profit Margin**으로 바꾸기
 
@@ -526,7 +526,7 @@
 
 	![그림 378](Linked_image_Files/03-configure-data-model-in-power-bi-desktop_image57.png)
 
-### **작업 2: 완료**
+### **작업 2 완료**
 
 이 작업에서는 랩을 완료합니다.
 

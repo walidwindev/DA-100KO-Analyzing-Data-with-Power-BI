@@ -16,7 +16,7 @@
 
 - 주요 영향 요소 시각적 개체를 사용하여 작업
 
-### 랩 **스토리**
+### **랩 스토리**
 
 이 랩은 데이터를 준비하여 보고서와 대시보드로 게시하는 전체 스토리로 제작된 랩 시리즈에 포함되어 있는 여러 랩 중 하나입니다. 랩은 원하는 순서로 완료하면 됩니다. 그러나 여러 랩을 진행하려는 경우 처음 10개 랩은 다음 순서로 수행하는 것이 좋습니다.
 
@@ -38,9 +38,9 @@
 
 9. Power BI 대시보드 만들기
 
-10. **Power BI Desktop에서 데이터 분석 수행**
+10. Power BI 페이지를 매긴 보고서 만들기
 
-11. Power BI 페이지를 매긴 보고서 만들기
+11. **Power BI Desktop에서 데이터 분석 수행**
 
 ## **보고서 만들기**
 
@@ -54,33 +54,33 @@
 
 1. 작업 표시줄에서 Microsoft Edge를 열려면 Microsoft Edge 프로그램 바로 가기를 클릭합니다.
 
-	![그림 7](Linked_image_Files/10-perform-data-analysis-in-power-bi-desktop_image1.png)
+ 	![그림 7](Linked_image_Files/10-perform-data-analysis-in-power-bi-desktop_image1.png)
 
-2. Microsoft Edge 브라우저 창에서 **https://powerbi.com** 으로 이동합니다.
+1. Microsoft Edge 브라우저 창에서 **https://powerbi.com** 으로 이동합니다.
 
-	*팁: Microsoft Edge 즐겨찾기 모음에서 Power BI 서비스 즐겨찾기를 사용할 수도 있습니다.*
+ 	*팁: Microsoft Edge 즐겨찾기 모음에서 Power BI 서비스 즐겨찾기를 사용할 수도 있습니다.*
 
-3. **로그인** 오른쪽 상단 모서리에 위치)을 클릭합니다.
+1. **로그인** 오른쪽 상단 모서리에 위치)을 클릭합니다.
 
-	![그림 5](Linked_image_Files/10-perform-data-analysis-in-power-bi-desktop_image2.png)
+ 	![그림 5](Linked_image_Files/10-perform-data-analysis-in-power-bi-desktop_image2.png)
 
-4. 제공된 계정 세부 정보를 입력합니다.
+1. 제공된 계정 세부 정보를 입력합니다.
 
-5. 암호를 업데이트하라는 메시지가 표시되면 제공된 암호를 다시 입력한 다음 새 암호를 입력하고 확인합니다.
+1. 암호를 업데이트하라는 메시지가 표시되면 제공된 암호를 다시 입력한 다음 새 암호를 입력하고 확인합니다.
 
-	*중요: 새 암호를 기록해 두어야 합니다.*
+ 	*중요: 새 암호를 기록해 두어야 합니다.*
 
-6. 로그인 프로세스를 완료합니다.
+1. 로그인 프로세스를 완료합니다.
 
-7. Microsoft Edge에서 로그인 상태를 유지하라는 메시지가 표시되면 **예**를 클릭합니다.
+1. Microsoft Edge에서 로그인 상태를 유지하라는 메시지가 표시되면 **예**를 클릭합니다.
 
-8. Microsoft Edge 브라우저 창의 Power BI 서비스 내 **탐색** 창에서 **내 작업 영역**을 확장합니다.
+1. Microsoft Edge 브라우저 창의 Power BI 서비스 내 **탐색** 창에서 **내 작업 영역**을 확장합니다.
 
-	![그림 4](Linked_image_Files/10-perform-data-analysis-in-power-bi-desktop_image3.png)
+ 	![그림 4](Linked_image_Files/10-perform-data-analysis-in-power-bi-desktop_image3.png)
 
-9. Microsoft Edge 브라우저 창을 열어 둡니다.
+1. Microsoft Edge 브라우저 창을 열어 둡니다.
 
-### **작업 2: 시작 - 데이터 세트 만들기**
+### **작업 2 시작 - 데이터 세트 만들기**
 
 이 작업에서는 데이터 세트를 만들어 랩용 환경을 설정합니다.
 
@@ -98,7 +98,7 @@
 
 	![그림 11](Linked_image_Files/10-perform-data-analysis-in-power-bi-desktop_image6.png)
 
-4. **열기** 창에서 **D:\DA100\Labs\create-power-bi-dashboard\Solution** 폴더로 이동합니다.
+4. **열기** 창에서 **D:\DA100\Labs\11-create-power-bi-dashboard\Solution** 폴더로 이동합니다.
 
 5. **Sales Analysis.pbix** 파일을 선택한 다음 **열기**를 클릭합니다.
 
@@ -158,7 +158,7 @@
 
 이 작업에서는 애니메이션화할 수 있는 분산 차트를 만듭니다.
 
-1. **페이지 1**의 이름을 **분산 차트**로 바꿉니다.
+1. **페이지 1**의 이름을 **분산형 차트**로 바꿉니다.
 
 	![그림 67](Linked_image_Files/10-perform-data-analysis-in-power-bi-desktop_image14.png)
 
@@ -168,7 +168,7 @@
 
 	![그림 75](Linked_image_Files/10-perform-data-analysis-in-power-bi-desktop_image16.png)
 
-3. 시각적 개체 저장소에 다음 필드를 추가합니다.
+3. 다음 필드를 시각적 개체 웰/영역에 추가합니다.
 
 	이 랩에서는 단축 표기를 사용해 필드를 참조합니다. 다음과 같이 표시됩니다. **Reseller | Business Type**. 이 예제에서 **Reseller**는 테이블 이름이고 **Business Type**은 필드 이름입니다.
 
@@ -184,9 +184,9 @@
 
 	![그림 39](Linked_image_Files/10-perform-data-analysis-in-power-bi-desktop_image17.png)
 
-	***재생 축** 웰에 필드를 추가하면 차트를 애니메이션화할 수 있습니다.*
+	*필드가 **재생 축** 웰/영역에 추가되면 차트를 애니메이션화할 수 있습니다/.*
 
-4. **필터** 창에서 **제품 | 범주** 필드를 **이 페이지의 필터**에 잘 추가합니다.
+4. **필터** 창에서 **제품 | 범주** 필드를 **이 페이지의 필터** 웰/영역으로 끌어옵니다.
 
 5. 필터 카드에서 **자전거**로 필터링합니다.
 
@@ -229,9 +229,8 @@
 	![그림 74](Linked_image_Files/10-perform-data-analysis-in-power-bi-desktop_image22.png)
 
   
-​ 
 
-3. 시각적 개체 저장소에 다음 필드를 추가합니다.
+3. 다음 필드를 시각적 개체 웰/영역에 추가합니다.
 
 	- 축: **Date | Date**
 
@@ -239,7 +238,7 @@
 
 	![그림 46](Linked_image_Files/10-perform-data-analysis-in-power-bi-desktop_image23.png)
 
-4. **필터** 창에서 **날짜 | 연도** 필드를 **이 페이지의 필터**로 추가합니다.
+4. **필터** 창에서 **날짜 | 연도** 필드를 **이 페이지의 필터** 웰/영역에 추가합니다.
 
 5. 필터 카드에서 2년으로 필터링합니다. **FY2019** 및 **FY2020**.
 
@@ -249,7 +248,7 @@
 
   
 
-6. **제품** 추가 **| 범주** 필드도 **이 페이지의 필터** 웰에 추가하고, **자전거**로 필터링합니다.
+6. **제품** 추가** | 범주** 필드도 **이 페이지의 필터** 웰/영역에 추가하고, **자전거**로 필터링합니다.
 
 	![그림 48](Linked_image_Files/10-perform-data-analysis-in-power-bi-desktop_image25.png)
 
@@ -311,7 +310,7 @@
 
 	![그림 73](Linked_image_Files/10-perform-data-analysis-in-power-bi-desktop_image32.png)
 
-4. 시각적 개체 저장소에 다음 필드를 추가합니다.
+4. 다음 필드를 시각적 개체 웰/영역에 추가합니다.
 
 	- 분석: **영업 | 이익률**
 
@@ -377,7 +376,7 @@
 
 	![그림 72](Linked_image_Files/10-perform-data-analysis-in-power-bi-desktop_image41.png)
 
-4. 시각적 개체 저장소에 다음 필드를 추가합니다.
+4. 시각적 개체 웰에 다음 필드를 추가합니다.
 
 	- 분석: **영업 | 이익률**
 
@@ -387,7 +386,7 @@
 
 	![그림 3](Linked_image_Files/10-perform-data-analysis-in-power-bi-desktop_image42.png)
 
-5. 시각적 개체의 왼쪽 상단에는 **키 영향 요소**에 초점을 맞추고 있으며 특정 영향 요소는 증가할 이익의 마진을 포함하는 것을 이해하도록 설정되어 있습니다.
+5. 시각적 개체의 왼쪽 상단에는 **키 영향 요소**에 초점을 맞추고 있으며 특정 영향 요소는 증가할 이익의 마진에 영향을 미치는 것을 파악하도록 설정되어 있습니다.
 
 	![그림 76](Linked_image_Files/10-perform-data-analysis-in-power-bi-desktop_image43.png)
 
@@ -409,7 +408,7 @@
 
 12. 세그먼트 결과 검토.
 
-### **작업 2: 완료**
+### **작업 2 완료**
 
 이 작업에서는 랩을 완료합니다.
 
