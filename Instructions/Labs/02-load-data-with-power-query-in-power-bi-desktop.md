@@ -270,7 +270,7 @@
 
 	![그림 5644](Linked_image_Files/02-load-data-with-power-query-in-power-bi-desktop_image31.png)
 
-7. 모든 열을 선택 취소하려면 **(모든 열 선택)**을 선택 취소합니다.
+7. 모든 열을 선택 취소하려면 **(모든 열 선택)** 을 선택 취소합니다.
 
 8. **EnglishProductSubcategoryName** 및 **DimProductCategory** 열을 선택하세요.
 
