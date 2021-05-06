@@ -1,4 +1,8 @@
-﻿
+﻿---
+lab:
+    title: 'Power BI 페이지를 매긴 보고서 만들기'
+    module: '모듈 9: Power BI에서 페이지를 매긴 보고서 만들기'
+---
 
 # **Power BI 페이지를 매긴 보고서 만들기**
 

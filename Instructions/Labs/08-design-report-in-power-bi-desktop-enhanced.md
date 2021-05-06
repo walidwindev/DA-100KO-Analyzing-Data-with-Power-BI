@@ -1,4 +1,8 @@
-﻿
+﻿---
+lab:
+    title: 'Power BI Desktop에서 보고서 디자인, 2부'
+    module: '모듈 7: 보고서 만들기'
+---
 
 # **Power BI Desktop에서 보고서 디자인, 2부**
 

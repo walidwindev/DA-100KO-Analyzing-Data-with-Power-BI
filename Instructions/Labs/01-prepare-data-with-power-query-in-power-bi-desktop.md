@@ -1,4 +1,8 @@
-﻿
+﻿---
+lab:
+    title: 'Power BI Desktop에서 데이터 준비'
+    module: '모듈 2: Power BI의 데이터 준비'
+---
 
 # **Power BI Desktop에서 데이터 준비**
 
