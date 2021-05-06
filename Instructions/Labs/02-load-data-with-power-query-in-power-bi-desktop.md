@@ -1,4 +1,4 @@
-﻿---
+---
 lab:
     title: 'Power BI Desktop에서 데이터 로드'
     module: '모듈 3: Power BI의 데이터 정리, 변환 및 로드'
