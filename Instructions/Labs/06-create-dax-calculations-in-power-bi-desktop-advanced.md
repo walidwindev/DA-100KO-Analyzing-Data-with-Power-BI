@@ -1,8 +1,9 @@
----
+﻿---
 lab:
     title: 'Power BI Desktop에서 DAX 계산 만들기, 2부'
-    module: '모듈 5: Power BI에서 DAX를 사용하여 모델 계산 만들기'
+    module: '모듈 5 - Power BI에서 DAX를 사용하여 모델 계산 만들기'
 ---
+
 
 # **Power BI Desktop에서 DAX 계산 만들기, 2부**
 
@@ -391,7 +392,7 @@ lab:
 
 3. 새 측정값은 처음 12개월 동안은 BLANK를 반환합니다(2017 회계연도 이전에 기록된 매출이 없기 때문입니다).
 
-4. **2017년 7월**에 대한 **Sales YoY Growth** 측정값은 **2016년 1월**에 대한 **Sales** 값입니다.
+4. **2018년 7월**에 대한 **Sales YoY Growth** 측정값은 **2017년 7월**에 대한 **Sales** 값입니다.
 
     ![그림 61](Linked_image_Files/06-create-dax-calculations-in-power-bi-desktop-advanced_image22.png)
 

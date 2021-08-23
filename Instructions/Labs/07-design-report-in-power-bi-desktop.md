@@ -1,8 +1,9 @@
----
+﻿---
 lab:
     title: 'Power BI Desktop에서 보고서 디자인, 1부'
-    module: '모듈 7: 보고서 만들기'
+    module: '모듈 7 - 보고서 만들기'
 ---
+
 
 # **Power BI Desktop에서 보고서 디자인, 1부**
 
@@ -380,31 +381,27 @@ lab:
 
 1. 새 페이지를 만든 다음 이름을 **내 성능**으로 바꿉니다.
 
-	*행 수준 보안은 사용자가 판매 지역 및 대상에 대한 데이터만 볼 수 있도록 구성되었습니다. 이 보고서를 영업 직원에게 배포하는 경우 자신의 판매 실적 결과만 표시됩니다.*
+1. 행 수준 보안 필터의 성능을 시뮬레이션하기 위해 **Salesperson (Performance) | Salesperson** 필드를 필터 창의 페이지 수준 필터로 끌어옵니다.
+	
+	![필터 창에 있는 Salesperson 필드의 이미지.](Linked_image_Files/07-design-report-in-power-bi-desktop_image999.png) 
 
-2. 보고서 설계 및 테스트 중에 행 수준 보안 필터를 시뮬레이션하려면 **영업 직원(실적) | 영업 직원** 필드를 **이 페이지의 필터** 웰/영역 내부의 **필터** 창에 추가합니다.
+1. **Michael Blythe**를 선택합니다. 이제 **내 실적** 보고서 페이지의 데이터가 Michael Blythe의 데이터만 표시하도록 필터링됩니다.
 
-3. 필터 카드에서 영업 직원 목록을 아래로 스크롤한 다음, **Michael Blythe**를 확인합니다.
-
-	![그림 73](Linked_image_Files/07-design-report-in-power-bi-desktop_image48.png)
-
-	*Power BI에 보고서를 게시하기 전에 이 필터를 삭제하라는 지침이 제공됩니다.*
-
-4. **날짜** 필드를 기준으로 드롭다운 슬라이서를 추가합니다. **| 년** 필드를 기준으로 드롭다운 슬라이서를 추가한 후 크기를 조정하여 페이지 왼쪽 위 모서리에 표시되도록 배치합니다.
+1. **날짜 | 년** 필드를 기준으로 드롭다운 슬라이서를 추가한 후 크기를 조정하여 페이지 왼쪽 위 모서리에 표시되도록 배치합니다.
 
 	![그림 70](Linked_image_Files/07-design-report-in-power-bi-desktop_image49.png)
 
-5. 슬라이서에서 **FY2019**를 기준으로 필터링되도록 페이지를 설정합니다.
+1. 슬라이서에서 **FY2019**를 기준으로 필터링되도록 페이지를 설정합니다.
 
 	![그림 71](Linked_image_Files/07-design-report-in-power-bi-desktop_image50.png)
 
-6. **여러 행 카드** 시각적 개체를 추가한 다음 크기를 조정하고 재배치하여 슬라이서 오른쪽에서 페이지의 나머지 너비를 채웁니다.
+1. **여러 행 카드** 시각적 개체를 추가한 다음 크기를 조정하고 재배치하여 슬라이서 오른쪽에서 페이지의 나머지 너비를 채웁니다.
 
 	![그림 56](Linked_image_Files/07-design-report-in-power-bi-desktop_image51.png)
 
 	![그림 74](Linked_image_Files/07-design-report-in-power-bi-desktop_image52.png)
 
-7. 시각적 개체에 다음 네 개의 필드를 추가합니다.
+1. 시각적 개체에 다음 4개의 필드를 추가합니다.
 
 	- Sales | 영업
 
@@ -414,7 +411,7 @@ lab:
 
 	- Targets | 분산 한계
 
-8. 시각적 개체 포맷:
+1. 시각적 개체의 형식을 지정합니다.
 
 	- **데이터 레이블** 그룹에서 **텍스트 크기** 속성을 **28pt** 로 늘립니다.
 
@@ -422,13 +419,13 @@ lab:
 
 	![그림 79](Linked_image_Files/07-design-report-in-power-bi-desktop_image53.png)
 
-9. **묶인 막대형 차트** 시각적 개체를 추가한 다음 크기를 조정하고 배치하여 다중 행 카드 시각적 개체 아래에 배치하고 페이지의 나머지 높이와 다중 행 카드 시각적 개체 너비의 절반을 채웁니다.
+1. **묶인 막대형 차트** 시각적 개체를 추가한 다음 크기를 조정하고 배치하여 다중 행 카드 시각적 개체 아래에 배치하고 페이지의 나머지 높이와 다중 행 카드 시각적 개체 너비의 절반을 채웁니다.
 
 	![그림 59](Linked_image_Files/07-design-report-in-power-bi-desktop_image54.png)
 
 	![그림 78](Linked_image_Files/07-design-report-in-power-bi-desktop_image55.png)
 
-10. 다음 필드를 시각적 개체 웰/영역에 추가합니다.
+1. 다음 필드를 시각적 개체 웰/영역에 추가합니다.
 
 	- 축: **Date | Month**
 
@@ -436,13 +433,13 @@ lab:
 
 	![그림 80](Linked_image_Files/07-design-report-in-power-bi-desktop_image56.png)
 
-11. 시각적 개체의 복사본을 만들려면 **Ctrl+C** 및 **Ctrl+V** 를 차례로 누릅니다.
+1. 시각적 개체의 복사본을 만들려면 **Ctrl+C**를 누른 다음, **Ctrl+V**를 누릅니다.
 
-12. 새 시각적 개체를 원래 시각적 개체 오른쪽에 배치합니다.
+1. 새 시각적 개체를 원래 시각적 개체 오른쪽에 배치합니다.
 
 	![그림 82](Linked_image_Files/07-design-report-in-power-bi-desktop_image57.png)
 
-13. **시각화** 창에서 시각화 유형을 수정하려면 **묶은 세로 막대형 차트**를 선택합니다.
+1. **시각화** 창에서 시각화 유형을 수정하려면 **묶은 세로 막대형 차트**를 선택합니다.
 
 	![그림 61](Linked_image_Files/07-design-report-in-power-bi-desktop_image58.png)
 

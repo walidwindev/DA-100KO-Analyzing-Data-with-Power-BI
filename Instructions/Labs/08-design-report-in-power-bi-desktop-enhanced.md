@@ -1,8 +1,9 @@
----
+﻿---
 lab:
     title: 'Power BI Desktop에서 보고서 디자인, 2부'
-    module: '모듈 7: 보고서 만들기'
+    module: '모듈 7 - 보고서 만들기'
 ---
+
 
 # **Power BI Desktop에서 보고서 디자인, 2부**
 
@@ -491,15 +492,3 @@ lab:
 	![그림 23](Linked_image_Files/08-design-report-in-power-bi-desktop-enhanced_image56.png)
 
 2. Microsoft Edge 브라우저 창을 열어 둡니다.
-
-3. Power BI Desktop에서 **실적** 페이지로 이동하고 **필터** 창에서 **영업 직원** 필터 카드를 제거합니다.
-
-	![그림 132](Linked_image_Files/08-design-report-in-power-bi-desktop-enhanced_image57.png)
-
-4. **개요** 페이지를 선택합니다.
-
-5. Power BI Desktop 파일을 저장한 다음 Power BI에 보고서를 다시 게시합니다.
-
-6. Power BI Desktop을 열어 둡니다.
-
-	***Power BI 콘텐츠 게시 및 공유** 랩에서 보고서를 공유하면 보고서에 행 수준 보안이 적용됩니다.*

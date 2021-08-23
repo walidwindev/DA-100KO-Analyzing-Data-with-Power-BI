@@ -1,8 +1,9 @@
----
+﻿---
 lab:
     title: 'Power BI Desktop에서 DAX 계산 만들기, 1부'
-    module: '모듈 5: Power BI에서 DAX를 사용하여 모델 계산 만들기'
+    module: '모듈 5 - Power BI에서 DAX를 사용하여 모델 계산 만들기'
 ---
+
 
 # **Power BI Desktop에서 DAX 계산 만들기, 1부**
 
@@ -110,7 +111,7 @@ lab:
 
 	![그림 4](Linked_image_Files/05-create-dax-calculations-in-power-bi-desktop_image10.png)
 
-	*편의를 위해 이 랩의 모든 DAX 정의를 **D:\DA100\Labs\05-create-dax-calculations-in-power-bi-desktop\Assets\Snippets.txt** 파일에서 복사할 수 있습니다.*
+	*편의를 위해 이 랩의 모든 DAX 정의를 **D:\DA100\Labs\05- create-dax-calculations-in-power-bi-desktop\Assets\Snippets.txt**에 위치한 코드 조각 파일에서 복사할 수 있습니다.*
 
 	*먼저 테이블 이름을 입력하고 나서 등호(=)를 입력한 다음 테이블을 반환하는 DAX 수식을 입력하면 계산된 테이블이 만들어집니다. 데이터 모델에 이미 있는 테이블 이름을 사용할 수는 없습니다.*
 
@@ -134,7 +135,7 @@ lab:
 
 6. **Salesperson | EmployeeKey**열과 **Sales | EmployeeKey** 열 간의 관계를 만듭니다.
 
-7. **Salesperson (Performance)** 테이블과 **Sales** 테이블 간의 비활성 관계를 오른쪽 단추로 클릭하고 나서 **삭제**를 선택합니다.
+7. **Salesperson (Performance)** 테이블과 **Sales** 테이블 간의 비활성 관계를 마우스 오른쪽 단추로 클릭하고 나서 **삭제**를 선택합니다.
 
 	![그림 2](Linked_image_Files/05-create-dax-calculations-in-power-bi-desktop_image12.png)
 
@@ -180,12 +181,13 @@ lab:
 
 	```
 	Date =  
-	‎CALENDARAUTO(6)
+	CALENDARAUTO(6)
 	```
 
 
 	![그림 6](Linked_image_Files/05-create-dax-calculations-in-power-bi-desktop_image16.png)
 
+	
 	*CALENDARAUTO() 함수는 날짜 값으로 구성된 단일 열 테이블을 반환합니다. "자동" 동작은 모든 데이터 모델 날짜 열을 검사하여 데이터 모델에 저장된 가장 이른 날짜 및 가장 최근 날짜 값을 정합니다. 그런 다음 이 범위 내의 각 날짜에 대해 하나의 행을 만들어 어느 방향으로든 범위를 확장하여 전체 기간 동안의 데이터를 저장합니다.*
 
 	*이 함수에는 1년의 마지막 달 번호를 단일 선택적 인수로 사용할 수 있습니다. 생략하면 값이 12가 되어 12월이 연중 마지막 달이라는 것을 뜻합니다. 6을 입력하는 경우 6월은 해당 연도의 마지막 달이라는 의미입니다.*
@@ -203,6 +205,8 @@ lab:
 ### **작업 4:** **계산된 열 만들기**
 
 이 작업에서는 다른 열을 추가하여 다른 기간별로 필터링 및 그룹화합니다. 또한 다른 열의 정렬 순서를 제어하기 위해 계산된 열을 만듭니다.
+
+*편의를 위해 이 랩의 모든 DAX 정의를 **D:\DA100\Labs\05- create-dax-calculations-in-power-bi-desktop\Assets\Snippets.txt**에 위치한 코드 조각 파일에서 복사할 수 있습니다.*
 
 1. **테이블 도구** 상황에 맞는 리본의 **계산** 그룹에서 **새 열**을 클릭합니다.
 
