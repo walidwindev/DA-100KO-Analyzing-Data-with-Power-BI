@@ -1,4 +1,4 @@
-﻿---
+---
 lab:
     title: 'Power BI 대시보드 만들기'
     module: '모듈 8 - 대시보드 만들기'
