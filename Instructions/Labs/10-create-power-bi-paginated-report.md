@@ -109,7 +109,7 @@ lab:
 
 1. 텍스트 상자를 이동하려면 네 개의 머리가 있는 화살표 아이콘을 클릭한 다음 헤더 영역으로 끌어와서 보고서 헤더 영역의 맨 왼쪽에 놓습니다.
 
-	![C:\Uses\PETERM~1\AppData\Local\Temp\SNAGHTML330925bc.PNG](Linked_image_Files/11-create-power-bi-paginated-report_image7.png)
+	![C:\Users\PETERM~1\AppData\Local\Temp\SNAGHTML330925bc.PNG](Linked_image_Files/11-create-power-bi-paginated-report_image7.png)
 
 1. 보고서 제목 텍스트 상자의 텍스트를 수정하려면 텍스트 상자 내부를 클릭한 후 다음을 입력합니다. **판매 주문 보고서**
 

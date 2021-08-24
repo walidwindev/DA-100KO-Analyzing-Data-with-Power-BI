@@ -127,11 +127,11 @@ lab:
 
 	![그림 5703](Linked_image_Files/04-configure-data-model-in-power-bi-desktop-advanced_image23.png)
 
-8. 필터를 할당하려면 **Salesperson (Performance)** 테이블에서 줄임표(...) 문자를 클릭한 다음 **필터 추가**를 선택합니다.** | [UPN]**.
+8. 필터를 할당하려면 **Salesperson (Performance)** 테이블에서 줄임표(...) 문자를 클릭한 다음 **필터 추가 | [UPN]** 를 선택합니다.
 
 	![그림 5704](Linked_image_Files/04-configure-data-model-in-power-bi-desktop-advanced_image24.png)
 
-9. **Table Filter DAX Expression** 상자에서 **"값"**을 **USERPRINCIPALNAME()**으로 바꿔 식을 수정합니다.
+9. **Table Filter DAX Expression** 상자에서 **"값"** 을 **USERPRINCIPALNAME()** 으로 바꿔 식을 수정합니다.
 
 	![그림 11](Linked_image_Files/04-configure-data-model-in-power-bi-desktop-advanced_image25.png)
 
@@ -179,7 +179,7 @@ lab:
 
 	![그림 17](Linked_image_Files/04-configure-data-model-in-power-bi-desktop-advanced_image34.png)
 
-20. 삭제를 확인하라는 메시지가 표시되면, **예, 삭제합니다.**를 클릭합니다.
+20. 삭제를 확인하라는 메시지가 표시되면, **예, 삭제합니다**.를 클릭합니다.
 
 21. **저장**을 클릭합니다.
 
