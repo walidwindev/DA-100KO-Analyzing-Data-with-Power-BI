@@ -1,8 +1,9 @@
 ---
 lab:
     title: 'Power BI 페이지를 매긴 보고서 만들기'
-    module: '모듈 9: Power BI에서 페이지를 매긴 보고서 만들기'
+    module: '모듈 9 - Power BI에서 페이지를 매긴 보고서 만들기'
 ---
+
 
 # **Power BI 페이지를 매긴 보고서 만들기**
 
@@ -65,6 +66,8 @@ lab:
 1. 작업 표시줄에서 Power BI Report Builder를 열려면 **Power BI Report Builder** 바로 가기를 클릭합니다.
 
  	![그림 32](Linked_image_Files/11-create-power-bi-paginated-report_image2.png)
+	
+	*참고: 최신 버전의 Power BI Report Builder로 업데이트하라는 메시지가 표시되면 **취소**를 클릭하고 2단계로 넘어갑니다.*
 
 1. Power BI Report Builder 창에서 새 보고서를 만들려면 **시작** 창에서 **빈 보고서**를 클릭합니다.
 
@@ -106,7 +109,7 @@ lab:
 
 1. 텍스트 상자를 이동하려면 네 개의 머리가 있는 화살표 아이콘을 클릭한 다음 헤더 영역으로 끌어와서 보고서 헤더 영역의 맨 왼쪽에 놓습니다.
 
-	![C:\Uses\PETERM~1\AppData\Local\Temp\SNAGHTML330925bc.PNG](Linked_image_Files/11-create-power-bi-paginated-report_image7.png)
+	![C:\Users\PETERM~1\AppData\Local\Temp\SNAGHTML330925bc.PNG](Linked_image_Files/11-create-power-bi-paginated-report_image7.png)
 
 1. 보고서 제목 텍스트 상자의 텍스트를 수정하려면 텍스트 상자 내부를 클릭한 후 다음을 입력합니다. **판매 주문 보고서**
 
@@ -192,7 +195,7 @@ lab:
 
 2. **데이터 원본 속성** 창의 **이름** 상자에서 텍스트를 **AdventureWorksDW2020**으로 바꿉니다.
 
-3. **연결 형식 선택** 드롭다운 목록에서 **Microsoft SQL Server**가 선택되었음을 알 수 있습니다.
+3. **연결 유형 선택** 드롭다운 목록에서 연결 유형을 SQL Server Analysis Services에서 **Microsoft SQL Server**로 변경합니다.
 
 4. 연결 문자열을 빌드하려면 **빌드**를 클릭합니다.
 

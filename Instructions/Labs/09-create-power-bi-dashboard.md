@@ -1,8 +1,9 @@
 ---
 lab:
     title: 'Power BI 대시보드 만들기'
-    module: '모듈 8: 대시보드 만들기'
+    module: '모듈 8 - 대시보드 만들기'
 ---
+
 
 # **Power BI 대시보드 만들기**
 
@@ -242,7 +243,7 @@ lab:
 
     ![그림 16](Linked_image_Files/09-create-power-bi-dashboard_image30.png)
 
-21. 회사 로그를 추가하려면 메뉴 모음에서 **편집**을 클릭한 다음 **타일 추가**를 선택합니다.
+21. 회사 로고를 추가하려면 메뉴 모음에서 **편집**을 클릭한 다음 **타일 추가**를 선택합니다.
 
     ![그림 46](Linked_image_Files/09-create-power-bi-dashboard_image31.png)
 

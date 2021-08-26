@@ -1,7 +1,7 @@
 ---
 lab:
     title: 'Power BI Desktop에서 데이터 로드'
-    module: '모듈 3: Power BI의 데이터 정리, 변환 및 로드'
+    module: '모듈 3 - Power BI의 데이터 정리, 변환 및 로드'
 ---
 
 # **Power BI Desktop에서 데이터 로드**
@@ -670,7 +670,7 @@ lab:
 
 	![그림 5692](Linked_image_Files/02-load-data-with-power-query-in-power-bi-desktop_image75.png)
 
-8. **병합** 창에서 **확인**을 클릭합니다.
+8. **병합** 창에서 기본 **조인 종류**를 사용합니다. 왼쪽 우선 외부 선택 항목을 유지하고 **확인**을 클릭합니다.
 
 	![그림 5693](Linked_image_Files/02-load-data-with-power-query-in-power-bi-desktop_image76.png)
 
@@ -726,7 +726,7 @@ lab:
 
 	- Sales
 
-	- Target
+	- Targets
 
 	- ColorFormats(데이터 모델에 로드되지 않음)
 

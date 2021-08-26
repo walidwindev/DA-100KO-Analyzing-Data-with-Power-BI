@@ -1,7 +1,7 @@
 ---
 lab:
     title: 'Power BI Desktop에서 데이터 준비'
-    module: '모듈 2: Power BI의 데이터 준비'
+    module: '모듈 2 - Power BI의 데이터 가져오기'
 ---
 
 # **Power BI Desktop에서 데이터 준비**
@@ -104,7 +104,7 @@ lab:
 
 	![그림 7](Linked_image_Files/01-prepare-data-with-power-query-in-power-bi-desktop_image9.png)
 
-    이 두 가지 옵션은 데이터 모델을 개발할 때 유용할 수 있지만 랩 환경을 지원하기 위해 비활성화되었습니다. **Power BI Desktop에서 데이터 로드** 랩에서 관계를 만들 때 각 옵션을 추가하는 이유를 알아볼 것입니다.
+    이 두 가지 옵션을 활성화하는 것은 데이터 모델을 개발할 때 유용할 수 있지만, 앞서 랩 환경을 지원하기 위해 비활성화되었습니다. **Power BI Desktop에서 데이터 로드** 랩에서 관계를 만들 때 각 옵션을 추가하는 이유를 알아볼 것입니다.
 
 1. **확인**을 클릭합니다.
 
@@ -130,35 +130,21 @@ lab:
 
 	![그림 22](Linked_image_Files/01-prepare-data-with-power-query-in-power-bi-desktop_image13.png)
 
-4. 기본 인증은 **내 현재 자격 증명을 사용**하는 것입니다.
-
-	![그림 23](Linked_image_Files/01-prepare-data-with-power-query-in-power-bi-desktop_image14.png)
-
-	Power BI Desktop이 사용자의 ID를 사용하여 SQL Server 인스턴스에 연결합니다. 사용자에게는 이제 연결하려는 데이터 원본에 대한 읽기 권한이 있습니다.
-
-5. **연결**을 클릭합니다.
-
-	![그림 25](Linked_image_Files/01-prepare-data-with-power-query-in-power-bi-desktop_image15.png)
-
-6. 암호화 지원에 대한 메시지가 표시되면 **확인**을 클릭합니다.
-
-	![그림 27](Linked_image_Files/01-prepare-data-with-power-query-in-power-bi-desktop_image16.png)
-
-7. **탐색기** 창에서 왼쪽에 있는 **AdventureWorksDW2020** 데이터베이스를 확장합니다.
+4. **탐색기** 창에서 왼쪽에 있는 **AdventureWorksDW2020** 데이터베이스를 확장합니다.
 
 	**AdventureWorksDW2020** 데이터베이스는 **AdventureWorksDW2017** 샘플 데이터베이스를 기반으로 합니다. 그 내용은 과정 랩의 학습 목표를 지원하도록 수정되었습니다.
 
 	![그림 28](Linked_image_Files/01-prepare-data-with-power-query-in-power-bi-desktop_image17.png)
 
-8. **DimEmployee** 테이블을 선택하지만 체크하지 마십시오.
+5. **DimEmployee** 테이블을 선택하지만 체크하지 마십시오.
 
 	![그림 29](Linked_image_Files/01-prepare-data-with-power-query-in-power-bi-desktop_image18.png)
 
-9. 오른쪽 창에 테이블 데이터의 미리 보기가 있습니다.
+6. 오른쪽 창에 테이블 데이터의 미리 보기가 있습니다.
 
 	미리 보기 데이터에서는 열과 행의 샘플을 각각 확인할 수 있습니다.
 
-10. 쿼리를 만들려면 다음 여섯 개의 테이블을 확인합니다.
+7. 쿼리를 만들려면 다음 6개의 테이블 옆에 있는 체크박스를 선택합니다.
 
 	- DimEmployee
 
@@ -172,7 +158,7 @@ lab:
 
 	- FactResellerSales
 
-11. 선택한 테이블의 데이터에 변환을 적용하려면 **데이터 변환**을 클릭합니다.
+8. 선택한 테이블의 데이터에 변환을 적용하려면 **데이터 변환**을 클릭합니다.
 
 	이 랩의 데이터를 변환하지는 않을 것입니다. 이 랩에서는 **Power Query 편집기** 창에서 데이터를 살펴보고 프로파일링하는 과정을 중점적으로 살펴봅니다.
 
