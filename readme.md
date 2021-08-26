@@ -4,7 +4,7 @@
 
 - **MCT입니까?** - [MCT용 GitHub 사용자 가이드](https://microsoftlearning.github.io/MCT-User-Guide-KO/)를 살펴보세요.
 - **랩 명령을 수동으로 빌드해야 합니까?** - [MicrosoftLearning/Docker-Build](https://github.com/MicrosoftLearning/Docker-Build) 리포지토리에서 명령을 사용할 수 있습니다.
-- **어떤 랩이 어떤 모듈과 연관되어 있는지를 다시 확인해보셔야 하나요?** - [GitHub 페이지](https://microsoftlearning.github.io/DA-100-Analyzing-Data-with-Power-BI/)를 살펴보세요.
+- **어떤 랩이 어떤 모듈과 연관되어 있는지를 다시 확인해보셔야 하나요?** - [GitHub 페이지](https://microsoftlearning.github.io/DA-100KO-Analyzing-Data-with-Power-BI//)를 살펴보세요.
 
 ## Microsoft의 역할
 

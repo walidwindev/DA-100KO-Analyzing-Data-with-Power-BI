@@ -1,4 +1,4 @@
----
+﻿---
 lab:
     title: 'Power BI 페이지를 매긴 보고서 만들기'
     module: '모듈 9 - Power BI에서 페이지를 매긴 보고서 만들기'
@@ -67,7 +67,7 @@ lab:
 
  	![그림 32](Linked_image_Files/11-create-power-bi-paginated-report_image2.png)
 	
-	*참고: 최신 버전의 Power BI Report Builder로 업데이트하라는 메시지가 표시되면 **취소**를 클릭하고 2단계로 넘어갑니다.
+	*참고: 최신 버전의 Power BI Report Builder로 업데이트하라는 메시지가 표시되면 **취소**를 클릭하고 2단계로 넘어갑니다.*
 
 1. Power BI Report Builder 창에서 새 보고서를 만들려면 **시작** 창에서 **빈 보고서**를 클릭합니다.
 
