@@ -1,4 +1,4 @@
----
+﻿---
 lab:
     title: '행 수준 보안 적용'
     module: '모듈 13 - 행 수준 보안'
@@ -73,7 +73,7 @@ lab:
 
 	![그림 5](Linked_image_Files/04-configure-data-model-in-power-bi-desktop-advanced_image4.png)
 
-1. **열기** 창에서 **D:\DA100\Labs\row-level-security\Starter** 폴더로 이동합니다.
+1. **열기** 창에서 **D:\DA100\Labs\12-row-level-security\Starter** 폴더로 이동합니다.
 
 1. **판매 분석** 파일을 선택합니다.
 

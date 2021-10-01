@@ -1,4 +1,4 @@
----
+﻿---
 lab:
     title: 'Power BI Desktop에서 데이터 준비'
     module: '모듈 2 - Power BI의 데이터 가져오기'
@@ -48,6 +48,8 @@ lab:
 
 11. Power BI Desktop에서 데이터 분석 수행
 
+12. 행 수준 보안 적용
+
 ## **연습 1: 데이터 준비**
 
 이 연습에서는 8개의 Power BI Desktop 쿼리를 만듭니다. 6개의 쿼리는 SQL Server에서 데이터를 소싱하고 2개는 CSV 파일에서 소싱합니다.
@@ -84,7 +86,7 @@ lab:
 
 	![그림 18](Linked_image_Files/01-prepare-data-with-power-query-in-power-bi-desktop_image6.png)
 
-### **작업 2 Power BI Desktop 옵션 설정하기**
+### **작업 2: Power BI Desktop 옵션 설정하기**
 
 이 작업에서는 Power BI Desktop 옵션을 설정합니다.
 

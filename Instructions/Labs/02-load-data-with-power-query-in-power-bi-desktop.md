@@ -1,4 +1,4 @@
----
+﻿---
 lab:
     title: 'Power BI Desktop에서 데이터 로드'
     module: '모듈 3 - Power BI의 데이터 정리, 변환 및 로드'
@@ -41,6 +41,8 @@ lab:
 10. Power BI 페이지를 매긴 보고서 만들기
 
 11. Power BI Desktop에서 데이터 분석 수행
+
+12. 행 수준 보안 적용
 
 ## **연습 1: 데이터 로드**
 
@@ -108,7 +110,7 @@ lab:
 
 	![그림 20](Linked_image_Files/02-load-data-with-power-query-in-power-bi-desktop_image10.png)
 
-### **작업 2 영업 직원 쿼리 구성**
+### **작업 2: 영업 직원 쿼리 구성**
 
 이 작업에서는 **Salesperson** 쿼리를 구성합니다.
 
