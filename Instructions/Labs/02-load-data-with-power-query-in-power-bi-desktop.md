@@ -42,6 +42,8 @@ lab:
 
 11. Power BI Desktop에서 데이터 분석 수행
 
+12. 행 수준 보안 적용
+
 ## **연습 1: 데이터 로드**
 
 이 연습에서는 이전 랩에서 만든 각 쿼리에 변환을 적용합니다.
@@ -108,7 +110,7 @@ lab:
 
 	![그림 20](Linked_image_Files/02-load-data-with-power-query-in-power-bi-desktop_image10.png)
 
-### **작업 2 영업 직원 쿼리 구성**
+### **작업 2: 영업 직원 쿼리 구성**
 
 이 작업에서는 **Salesperson** 쿼리를 구성합니다.
 

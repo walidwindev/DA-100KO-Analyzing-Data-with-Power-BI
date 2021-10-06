@@ -45,6 +45,8 @@ lab:
 
 11. Power BI Desktop에서 데이터 분석 수행
 
+12. 행 수준 보안 적용
+
 ## **연습 1: 계산된 테이블 만들기**
 
 이 연습에서는 계산된 테이블 두 개를 만듭니다. 첫 번째는 **영업 직원** 테이블로, **영업** 테이블과의 직접 관계를 설정할 수 있습니다. 두 번째는 **날짜** 테이블입니다.
@@ -99,7 +101,7 @@ lab:
 
 	![그림 13](Linked_image_Files/05-create-dax-calculations-in-power-bi-desktop_image8.png)
 
-### **작업 2 Salesperson 테이블 만들기**
+### **작업 2: Salesperson 테이블 만들기**
 
 이 작업에서는 **Salesperson** 테이블(**Sales**와의 직접 관계)을 만듭니다.
 
@@ -470,7 +472,7 @@ lab:
 
 	![그림 39](Linked_image_Files/05-create-dax-calculations-in-power-bi-desktop_image43.png)
 
-### **작업 2 추가 측정값 만들기**
+### **작업 2: 추가 측정값 만들기**
 
 이 작업에서는 보다 복잡한 수식을 사용하는 추가 측정값을 만듭니다.
 

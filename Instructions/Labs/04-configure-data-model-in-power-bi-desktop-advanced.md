@@ -37,9 +37,11 @@ lab:
 
 9. Power BI 대시보드 만들기
 
-11. Power BI 페이지를 매긴 보고서 만들기
+10. Power BI 페이지를 매긴 보고서 만들기
 
-10. Power BI Desktop에서 데이터 분석 수행
+11. Power BI Desktop에서 데이터 분석 수행
+
+12. 행 수준 보안 적용
 
 ## **연습 1: 다대다 관계 만들기**
 
@@ -95,7 +97,7 @@ lab:
 
  	![그림 2](Linked_image_Files/04-configure-data-model-in-power-bi-desktop-advanced_image8.png)
 
-### **작업 2 다 대 다 관계 만들기**
+### **작업 2: 다 대 다 관계 만들기**
 
 이 작업에서는 **Salesperson** 테이블과 **Sales** 테이블 간에 다대다 관계를 만듭니다.
 

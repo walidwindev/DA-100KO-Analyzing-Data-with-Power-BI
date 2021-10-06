@@ -47,6 +47,8 @@ lab:
 
 11. Power BI Desktop에서 데이터 분석 수행
 
+12. 행 수준 보안 적용
+
 ## **연습 1: 모델 관계 만들기**
 
 이 연습에서는 모델 관계를 만듭니다.
@@ -101,7 +103,7 @@ lab:
 
  	![그림 3](Linked_image_Files/03-configure-data-model-in-power-bi-desktop_image8.png)
 
-### **작업 2 모델 관계 만들기**
+### **작업 2: 모델 관계 만들기**
 
 이 작업에서는 모델 관계를 만듭니다.
 
@@ -267,7 +269,7 @@ lab:
 
 	*표시 폴더는 특히 많은 필드로 구성된 테이블을 정리할 수 있는 좋은 방법입니다.*
 
-### **작업 2 Region 테이블 구성**
+### **작업 2: Region 테이블 구성**
 
 이 작업에서는 **Region** 테이블을 구성합니다.
 
@@ -531,7 +533,7 @@ lab:
 
 	![그림 378](Linked_image_Files/03-configure-data-model-in-power-bi-desktop_image57.png)
 
-### **작업 2 완료**
+### **작업 2: 완료**
 
 이 작업에서는 랩을 완료합니다.
 
