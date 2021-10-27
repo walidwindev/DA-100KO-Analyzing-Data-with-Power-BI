@@ -1,4 +1,4 @@
----
+﻿---
 lab:
     title: 'Power BI Desktop에서 DAX 계산 만들기, 1부'
     module: '모듈 5 - Power BI에서 DAX를 사용하여 모델 계산 만들기'
@@ -312,23 +312,24 @@ lab:
 
 2. **Date** 테이블에서 **MonthKey** 열을 숨깁니다.
 
-3. **Date** 테이블에서 다음 세 가지 수준을 사용하여 **Fiscal**이라는 계층 구조를 만듭니다.
+3. **필드** 우측 창에서 **날짜** 테이블을 선택하고 **연도** 열을 마우스 오른쪽 단추를 클릭한 후 **계층 구조 만들기**를 선택합니다. 
 
-	- Year
-
+4. 마우스 오른쪽 단추를 클릭하고 **이름 변경**을 선택하여 새로 만들어진 계층 구조의 이름을 **Fiscal**로 변경합니다. 
+5. 필드 창에서 나머지 2개의 필드를 선택하고 마우스 오른쪽 단추를 클릭합니다. **계층 구조에 추가** -> **Fiscal**를 선택하여 해당 필드를 Fiscal 계층 구조에 추가합니다.
+	
 	- Quarter
 
 	- Month
 
 	![그림 24](Linked_image_Files/05-create-dax-calculations-in-power-bi-desktop_image31.png)
 
-4. 다음 두 모델 관계를 만듭니다.
+6. 다음 두 모델 관계를 만듭니다.
 
 	- **Date | Date**와 **Sales | OrderDate**
 
 	- **Date | 날짜** 와 **대상** 간 **| TargetMonth**
 
-5. 다음 두 개 열을 숨깁니다.
+7. 다음 두 개 열을 숨깁니다.
 
 	- Sales | OrderDate
 

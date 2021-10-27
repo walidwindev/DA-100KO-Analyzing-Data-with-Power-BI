@@ -1,4 +1,4 @@
----
+﻿---
 lab:
     title: 'Power BI Desktop에서 데이터 로드'
     module: '모듈 3 - Power BI의 데이터 정리, 변환 및 로드'
@@ -463,7 +463,7 @@ lab:
 
 7. **사용자 지정 열 수식** 상자에서 다음 식을 등호 뒤에 입력합니다.
 
-8. 편의상 **D:\DA100\Labs\load-data-with-power-query-in-power-bi-desktop\Assets\Snippets.txt** 파일에서 식을 복사할 수 있습니다.
+8. 편의상 **D:\DA100\Labs\02-load-data-with-power-query-in-power-bi-desktop\Assets\Snippets.txt** 파일에서 식을 복사할 수 있습니다.
 
 
    **파워 쿼리**
