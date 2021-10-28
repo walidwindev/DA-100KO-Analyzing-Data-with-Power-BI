@@ -364,6 +364,8 @@ lab:
 	- Reseller | ResellerKey
 
 	- Sales | EmployeeKey
+	
+	- Sales |ProductKey
 
 	- Sales | ResellerKey
 
